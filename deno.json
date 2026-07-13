@@ -10,6 +10,7 @@
   },
   "exports": {
     ".": "./src/models/index.ts",
+    "./generate/crd-generate": "./src/generate/crd-generate/index.ts",
     "./apimachinery/apis/meta/v1/ObjectMeta": "./src/apimachinery/apis/meta/v1/ObjectMeta.ts",
     "./apimachinery/_schemas/ObjectMeta": "./src/apimachinery/_schemas/apis/meta/v1/ObjectMeta.js"
   },
@@ -32,5 +33,5 @@
   },
   "license": "MIT",
   "name": "@glassway/kubernetes-models",
-  "version": "1.36.1"
+  "version": "1.36.2"
 }
