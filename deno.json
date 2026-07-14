@@ -1,7 +1,7 @@
 {
   "imports": {
     "@es-toolkit/es-toolkit": "jsr:@es-toolkit/es-toolkit@^1.49.0",
-    "@glassway/kubernetes-types": "jsr:@glassway/kubernetes-types@^1.0.2",
+    "@glassway/kubernetes-types": "jsr:@glassway/kubernetes-types@^1.0.3",
     "@std/streams": "jsr:@std/streams@^1.1.1",
     "@std/yaml": "jsr:@std/yaml@^1.1.2",
     "ajv": "npm:ajv@^8.20.0",
@@ -33,5 +33,5 @@
   },
   "license": "MIT",
   "name": "@glassway/kubernetes-models",
-  "version": "1.36.3"
+  "version": "1.36.4"
 }
