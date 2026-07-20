@@ -22,11 +22,16 @@ const generateSchemas: Generator = async (definitions) => {
   for (let i = 0; i < definitions.length; i++) {
     const def = definitions[i];
     const path = getSchemaPath(def.schemaId);
+    const lines = [
+      '// deno-coverage-ignore-file',
+      `/* @ts-self-types="./${getClassName(def.schemaId)}.d.ts" */`,
+      schemas[i]
+    ];
 
     files.push(
       {
         path,
-        content: `/* @ts-self-types="./${getClassName(def.schemaId)}.d.ts" */\n` + schemas[i],
+        content: lines.join('\n'),
       },
       // TODO: Move this to @kubernetes-models/generate
       {

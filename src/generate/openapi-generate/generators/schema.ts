@@ -81,11 +81,16 @@ export default function ({ getDefinitionPath }: Context): Generator {
       const def = definitions[i];
       const path = getSchemaPath(getDefinitionPath(def.schemaId));
       const file = trimSuffix(_path.basename(path), ".js");
+      const lines = [
+        '// deno-coverage-ignore-file',
+        `/* @ts-self-types="./${file}.d.ts" */`,
+        schemas[i]
+      ];
 
       files.push(
         {
           path,
-          content: `/* @ts-self-types="./${file}.d.ts" */\n` +  schemas[i],
+          content: lines.join('\n'),
         },
         {
           path: trimSuffix(path, ".js") + ".d.ts",
