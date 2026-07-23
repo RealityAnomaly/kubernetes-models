@@ -58,6 +58,7 @@ function load(input: string): Definition[] {
         gvk: gvks,
         schema,
         schemaId: id,
+        scope: '\\*',
       };
     });
 }
