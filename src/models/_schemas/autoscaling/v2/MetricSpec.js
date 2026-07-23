@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./MetricSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"containerResource":{"$ref":"qKqPxRQvJaRJ8JKDfxarqAZisOnEkLH7scRrY9PO14w"},"external":{"$ref":"1nqOUXJqa3ovjmZc1QsPx1zXu9tbteHVZ76_7PSPorQ"},"object":{"$ref":"C0_XqEZpwDZBu5OfLG6UEbu1FopjQWtPGVbrE3VFof0"},"pods":{"$ref":"MnqafrO79rowMRaSn7TrI0x-oqVqHClrJvb-ZkI8DXE"},"resource":{"$ref":"Zft2O2i8F6jlBXsKiu90_tgknC-jCeipg3YeoJ4Lais"},"type":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["type"],"type":"object","$id":"io.k8s.api.autoscaling.v2.MetricSpec"};

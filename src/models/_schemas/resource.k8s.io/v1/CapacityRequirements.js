@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CapacityRequirements.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"requests":{"$ref":"YfMVS3P5aWVrkVb6yChl1fVwg8EQjbWuoJkKTJAHr6A"}},"type":"object","$id":"io.k8s.api.resource.v1.CapacityRequirements"};

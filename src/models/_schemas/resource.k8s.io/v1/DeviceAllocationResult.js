@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeviceAllocationResult.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"config":{"$ref":"6KRazEs42BxfCnQFzmtoAaoDq9G8aZ03ZqljGcoSv78"},"results":{"$ref":"kM_5qFHugI4HE_syFELLBH3_mzJPmoOrgKFS0OhPmaY"}},"type":"object","$id":"io.k8s.api.resource.v1.DeviceAllocationResult"};

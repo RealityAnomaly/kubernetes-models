@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./FSGroupStrategyOptions.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"ranges":{"$ref":"N8eewXRciDx0tc0VUaqeW1aRpQ2lfblkmbZE3a7YQQg"},"rule":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.extensions.v1beta1.FSGroupStrategyOptions"};

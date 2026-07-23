@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodDNSConfig.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"nameservers":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"},"options":{"$ref":"6pqGzQxa6hMnqJz7GJ4xOm542gSCGRpGQNlMXtjuOXU"},"searches":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"}},"type":"object","$id":"io.k8s.api.core.v1.PodDNSConfig"};

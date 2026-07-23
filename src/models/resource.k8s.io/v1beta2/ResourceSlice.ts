@@ -55,6 +55,7 @@ export class ResourceSlice extends Model<IResourceSlice> implements IResourceSli
 static apiVersion: IResourceSlice["apiVersion"] = "resource.k8s.io/v1beta2";
 static kind: IResourceSlice["kind"] = "ResourceSlice";
 static is: TypeMetaGuard<IResourceSlice> = createTypeMetaGuard<IResourceSlice>(ResourceSlice);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IResourceSlice>) {
   super();

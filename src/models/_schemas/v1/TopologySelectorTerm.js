@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./TopologySelectorTerm.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"matchLabelExpressions":{"$ref":"LK9vuverd4ALayl3tD8-OOpApP5is6THCFyLduZ-gW8"}},"type":"object","$id":"io.k8s.api.core.v1.TopologySelectorTerm"};

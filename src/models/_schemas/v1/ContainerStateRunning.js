@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ContainerStateRunning.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"startedAt":{"$ref":"tpjjy07qx44TS_S1WH8Z24TCcf0ahn452vZ82zIbIK0"}},"type":"object","$id":"io.k8s.api.core.v1.ContainerStateRunning"};

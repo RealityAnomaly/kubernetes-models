@@ -39,6 +39,7 @@ export class ClusterRole extends Model<IClusterRole> implements IClusterRole {
 static apiVersion: IClusterRole["apiVersion"] = "rbac.authorization.k8s.io/v1";
 static kind: IClusterRole["kind"] = "ClusterRole";
 static is: TypeMetaGuard<IClusterRole> = createTypeMetaGuard<IClusterRole>(ClusterRole);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IClusterRole>) {
   super();

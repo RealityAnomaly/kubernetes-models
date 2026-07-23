@@ -33,6 +33,7 @@ export class PodPresetList extends Model<IPodPresetList> implements IPodPresetLi
 static apiVersion: IPodPresetList["apiVersion"] = "settings.k8s.io/v1alpha1";
 static kind: IPodPresetList["kind"] = "PodPresetList";
 static is: TypeMetaGuard<IPodPresetList> = createTypeMetaGuard<IPodPresetList>(PodPresetList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodPresetList>) {
   super();

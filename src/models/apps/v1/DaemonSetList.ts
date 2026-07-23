@@ -33,6 +33,7 @@ export class DaemonSetList extends Model<IDaemonSetList> implements IDaemonSetLi
 static apiVersion: IDaemonSetList["apiVersion"] = "apps/v1";
 static kind: IDaemonSetList["kind"] = "DaemonSetList";
 static is: TypeMetaGuard<IDaemonSetList> = createTypeMetaGuard<IDaemonSetList>(DaemonSetList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IDaemonSetList>) {
   super();

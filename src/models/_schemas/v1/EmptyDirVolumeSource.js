@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./EmptyDirVolumeSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"medium":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"sizeLimit":{"$ref":"pp_xaFlNXkKoD6DTqyaUAeP7lGItJ9_hKwPxmHYeCNA"}},"type":"object","$id":"io.k8s.api.core.v1.EmptyDirVolumeSource"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./AllowedFlexVolume.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"driver":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["driver"],"type":"object","$id":"io.k8s.api.policy.v1beta1.AllowedFlexVolume"};

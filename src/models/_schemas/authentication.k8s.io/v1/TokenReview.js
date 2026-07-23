@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./TokenReview.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"2dBH5krb-9V_zz6g-s8KjmQxGEcztyiu3l4QdNBLCeo"},"kind":{"$ref":"TRN64iKm8K8i2tqTAn5tMS-kFmXd-S7o2-YNWbITB2Y"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"dWfhV6qva2dZ45fdb4uTpWv1mor2l1qE1idtYQBImuQ"},"status":{"$ref":"m8abTrA0s3oNLLZUXbQ4p_ElktuwVYUOQbYAKPS5VtM"}},"required":["spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.authentication.v1.TokenReview"};

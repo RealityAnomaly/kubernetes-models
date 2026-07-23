@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodSchedulingGate.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["name"],"type":"object","$id":"io.k8s.api.core.v1.PodSchedulingGate"};

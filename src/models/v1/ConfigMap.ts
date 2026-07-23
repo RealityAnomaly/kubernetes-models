@@ -50,6 +50,7 @@ export class ConfigMap extends Model<IConfigMap> implements IConfigMap {
 static apiVersion: IConfigMap["apiVersion"] = "v1";
 static kind: IConfigMap["kind"] = "ConfigMap";
 static is: TypeMetaGuard<IConfigMap> = createTypeMetaGuard<IConfigMap>(ConfigMap);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IConfigMap>) {
   super();

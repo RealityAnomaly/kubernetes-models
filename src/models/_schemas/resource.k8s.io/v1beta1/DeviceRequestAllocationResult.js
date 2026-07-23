@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeviceRequestAllocationResult.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"adminAccess":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"bindingConditions":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"},"bindingFailureConditions":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"},"consumedCapacity":{"$ref":"YfMVS3P5aWVrkVb6yChl1fVwg8EQjbWuoJkKTJAHr6A"},"device":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"driver":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"pool":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"request":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"shareID":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"tolerations":{"$ref":"Zt_wDZgLLDN3uQwwU5PBiaAG3JvXk9BYmq6EKFUV3WI"}},"required":["request","driver","pool","device"],"type":"object","$id":"io.k8s.api.resource.v1beta1.DeviceRequestAllocationResult"};

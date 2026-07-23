@@ -27,6 +27,7 @@ export class PodPreset extends Model<IPodPreset> implements IPodPreset {
 static apiVersion: IPodPreset["apiVersion"] = "settings.k8s.io/v1alpha1";
 static kind: IPodPreset["kind"] = "PodPreset";
 static is: TypeMetaGuard<IPodPreset> = createTypeMetaGuard<IPodPreset>(PodPreset);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodPreset>) {
   super();

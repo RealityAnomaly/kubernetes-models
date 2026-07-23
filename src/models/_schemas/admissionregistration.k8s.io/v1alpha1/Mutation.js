@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Mutation.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"applyConfiguration":{"$ref":"d5bboD6-t-ttR3seRH--m6yPz82cTVCz5Smx89cTx7s"},"jsonPatch":{"$ref":"tRUMLds66vKUaU0CwMgUVWrz-Kzd_w8YmMqJxmjqx0U"},"patchType":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["patchType"],"type":"object","$id":"io.k8s.api.admissionregistration.v1alpha1.Mutation"};

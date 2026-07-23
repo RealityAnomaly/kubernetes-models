@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./EnvVarSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"configMapKeyRef":{"$ref":"MsdQWaQ3zbmD4Nrf3RDzk2nb9rBLfpv2d6SNFflayyE"},"fieldRef":{"$ref":"JOhCLeihCPJEICCwJ_L74C0fLUv2Ekwfa8UfwK16gnA"},"fileKeyRef":{"$ref":"9R22DDWEljRNeJqiiobw_hbaGjq_w5j3olG9MuL40pY"},"resourceFieldRef":{"$ref":"MMFGE6raCf-JgDZlh_imnx9XhGYBaAKiYX14FgUnkTc"},"secretKeyRef":{"$ref":"9ycLxXIOreoyx5aQ3PnPUb5MeG7b_VHRXOh_hn9Q0Ag"}},"type":"object","$id":"io.k8s.api.core.v1.EnvVarSource"};

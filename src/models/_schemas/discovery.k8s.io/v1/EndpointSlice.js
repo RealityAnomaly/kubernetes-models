@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./EndpointSlice.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"addressType":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"apiVersion":{"$ref":"EtmVowaP4yXdG9R0rcifP5IQ6PXg08MrX97pqOU6jAo"},"endpoints":{"$ref":"2rLBlLSgKgNr8tIrv951aa0jG_Rm-rwDBy08zYuTLWI"},"kind":{"$ref":"2Nu5j0ZGnPAbUkuK0J-UcLz5vDbsljKIVhEsm0uLPC8"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"ports":{"$ref":"9oMpD_DYEVKg6-iR11qrRMaefXySu0mLmcVN8-NL5n0"}},"required":["addressType","apiVersion","kind"],"type":"object","$id":"io.k8s.api.discovery.v1.EndpointSlice"};

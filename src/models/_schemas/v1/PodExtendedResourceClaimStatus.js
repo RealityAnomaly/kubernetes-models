@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodExtendedResourceClaimStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"requestMappings":{"$ref":"YXc-ZFIY0IXqEqLRathiY90lIq_fBIy3D4ZMlKaorlc"},"resourceClaimName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["requestMappings","resourceClaimName"],"type":"object","$id":"io.k8s.api.core.v1.PodExtendedResourceClaimStatus"};

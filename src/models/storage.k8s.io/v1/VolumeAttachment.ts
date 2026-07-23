@@ -43,6 +43,7 @@ export class VolumeAttachment extends Model<IVolumeAttachment> implements IVolum
 static apiVersion: IVolumeAttachment["apiVersion"] = "storage.k8s.io/v1";
 static kind: IVolumeAttachment["kind"] = "VolumeAttachment";
 static is: TypeMetaGuard<IVolumeAttachment> = createTypeMetaGuard<IVolumeAttachment>(VolumeAttachment);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IVolumeAttachment>) {
   super();

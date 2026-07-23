@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./EndpointHints.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"forZones":{"$ref":"MlB7OrZBB4E4xG1Z0eFktbNgUXpkLM4nQOwBB5hOKcs"}},"type":"object","$id":"io.k8s.api.discovery.v1beta1.EndpointHints"};

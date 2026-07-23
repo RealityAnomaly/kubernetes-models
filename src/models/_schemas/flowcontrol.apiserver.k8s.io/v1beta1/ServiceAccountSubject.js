@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ServiceAccountSubject.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"namespace":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["namespace","name"],"type":"object","$id":"io.k8s.api.flowcontrol.v1beta1.ServiceAccountSubject"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./StorageVersionMigrationStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"conditions":{"$ref":"dQGKG5blsR7HP3edC1PecGa87MaszLFa0ytsVjz99_k"},"resourceVersion":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.storagemigration.v1alpha1.StorageVersionMigrationStatus"};

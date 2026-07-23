@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./AllocationResult.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"allocationTimestamp":{"$ref":"tpjjy07qx44TS_S1WH8Z24TCcf0ahn452vZ82zIbIK0"},"devices":{"$ref":"g44xGFlOhTq1nh7_CWmq5mQL355Z3st6O-9dRIzf18c"},"nodeSelector":{"$ref":"TkSNaYWIxhO85OVX_cSWzmQgv784eOxf9GMx98WTU1I"}},"type":"object","$id":"io.k8s.api.resource.v1.AllocationResult"};

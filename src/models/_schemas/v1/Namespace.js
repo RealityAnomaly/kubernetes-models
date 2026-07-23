@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Namespace.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"_-ZvS-rLxHiNEArQOhevVo83klxV-qnul8X_v4BZ4M4"},"kind":{"$ref":"fO8pRSG-KiJfDQzW-dLMBeyoyCk3Fs5KRBWx8BkOaEA"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"HDLcsGeTwtsVHe-AAvcCjjFiB50DAzS6ujnYKxyPGEU"},"status":{"$ref":"ohAg9WoR2_cLdPCZ1QwlmrbYbPvx5x7a-w_3b7raVOQ"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.core.v1.Namespace"};

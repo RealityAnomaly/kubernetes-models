@@ -35,6 +35,7 @@ export class Role extends Model<IRole> implements IRole {
 static apiVersion: IRole["apiVersion"] = "rbac.authorization.k8s.io/v1alpha1";
 static kind: IRole["kind"] = "Role";
 static is: TypeMetaGuard<IRole> = createTypeMetaGuard<IRole>(Role);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IRole>) {
   super();

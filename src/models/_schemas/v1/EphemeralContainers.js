@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./EphemeralContainers.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"_-ZvS-rLxHiNEArQOhevVo83klxV-qnul8X_v4BZ4M4"},"ephemeralContainers":{"$ref":"MRxl8YTCLmaDotM9cpWGrBPKX0LxjcEdaSPVHgExtFU"},"kind":{"$ref":"1viPS36mGwOiyApZrqDzvzaTIlBQROau81d9aYT50iY"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"}},"required":["ephemeralContainers","apiVersion","kind"],"type":"object","$id":"io.k8s.api.core.v1.EphemeralContainers"};

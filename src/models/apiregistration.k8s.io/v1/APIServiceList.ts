@@ -33,6 +33,7 @@ export class APIServiceList extends Model<IAPIServiceList> implements IAPIServic
 static apiVersion: IAPIServiceList["apiVersion"] = "apiregistration.k8s.io/v1";
 static kind: IAPIServiceList["kind"] = "APIServiceList";
 static is: TypeMetaGuard<IAPIServiceList> = createTypeMetaGuard<IAPIServiceList>(APIServiceList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IAPIServiceList>) {
   super();

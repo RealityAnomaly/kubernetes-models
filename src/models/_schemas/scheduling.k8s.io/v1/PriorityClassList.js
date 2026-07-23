@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PriorityClassList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"HpsEyiWOInqhlY0dIoLKmMEFK0Hs6s0dhtLNqVM-2Fk"},"items":{"$ref":"7L_tMpsoyhVSgFQLKgPxgBtLR11joUE44gIwQi5mTDw"},"kind":{"$ref":"91L5wWeczYAYXzucOu3DrLH3leT68IuBdENKLJrvW9Y"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.scheduling.v1.PriorityClassList"};

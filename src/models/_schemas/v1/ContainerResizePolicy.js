@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ContainerResizePolicy.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"resourceName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"restartPolicy":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["resourceName","restartPolicy"],"type":"object","$id":"io.k8s.api.core.v1.ContainerResizePolicy"};

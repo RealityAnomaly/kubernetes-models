@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./VolumeAttributesClassList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"3Lnz3hDGoV6LS117nicS3YoTy1WU2EUGx89iY2NJZb4"},"items":{"$ref":"QXqrELoIdnoikD4vHViYUBsjEJK6azuoigDV--VNdiY"},"kind":{"$ref":"MwaWuJi-XYeknF8tDccqQ9zmKhHh0npOv05W_3uBNuU"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.storage.v1.VolumeAttributesClassList"};

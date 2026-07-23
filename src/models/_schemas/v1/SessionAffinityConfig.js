@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./SessionAffinityConfig.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"clientIP":{"$ref":"HTXps9LeNLl6p-5BVBCKOA_I5flwK142Xznn_2jWPx4"}},"type":"object","$id":"io.k8s.api.core.v1.SessionAffinityConfig"};

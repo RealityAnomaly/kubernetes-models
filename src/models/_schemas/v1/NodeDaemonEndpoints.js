@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeDaemonEndpoints.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"kubeletEndpoint":{"$ref":"tSUMHXH8ZjDEtZ0bH_-DGUQytQ-Xn6rQKFQ1cdrvrtU"}},"type":"object","$id":"io.k8s.api.core.v1.NodeDaemonEndpoints"};

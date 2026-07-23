@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ScopedResourceSelectorRequirement.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"operator":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"scopeName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"values":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"}},"required":["scopeName","operator"],"type":"object","$id":"io.k8s.api.core.v1.ScopedResourceSelectorRequirement"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ContainerExtendedResourceRequest.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"containerName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"requestName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"resourceName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["containerName","resourceName","requestName"],"type":"object","$id":"io.k8s.api.core.v1.ContainerExtendedResourceRequest"};

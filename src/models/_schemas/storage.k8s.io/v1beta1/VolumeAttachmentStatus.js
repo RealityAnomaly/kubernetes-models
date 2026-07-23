@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./VolumeAttachmentStatus.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"attachError":{"$ref":"KqrhfM3qZ6V4RwQUhl6v3nVXgTbDDFk-9lB9utFmngg"},"attached":{"$ref":"C6hei-tisjs1kz7xDhDJSDhsoUlCo3cumzNSDD7Je7A"},"attachmentMetadata":{"$ref":"Ul_dhUdbb_DarDhfw0mKkpjzZdc0vNqkGhUAaKt2b7M"},"detachError":{"$ref":"KqrhfM3qZ6V4RwQUhl6v3nVXgTbDDFk-9lB9utFmngg"}},"required":["attached"],"type":"object","$id":"io.k8s.api.storage.v1beta1.VolumeAttachmentStatus"};

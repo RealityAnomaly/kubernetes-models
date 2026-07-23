@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeploymentStrategy.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"rollingUpdate":{"$ref":"gXbM_1ZnJnSEYJy1X3cPuwA6MKc5CekJRhsEwpQw9Qw"},"type":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.apps.v1beta2.DeploymentStrategy"};

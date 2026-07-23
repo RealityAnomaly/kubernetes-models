@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NetworkPolicyEgressRule.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"ports":{"$ref":"QldHV1DJ8weqrhK5HGykJeTVrfPMbPEaqusNb7_vkaY"},"to":{"$ref":"GS8VUXAjKoFaLaANXqIVr2gV1jplKy3XYieOlJeUlYA"}},"type":"object","$id":"io.k8s.api.networking.v1.NetworkPolicyEgressRule"};

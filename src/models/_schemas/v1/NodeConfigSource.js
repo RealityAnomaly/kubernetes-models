@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeConfigSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"configMap":{"$ref":"_yapa5r37fqdaG14qfhXQEseQqbEK6MPkJNR2jgpDXY"}},"type":"object","$id":"io.k8s.api.core.v1.NodeConfigSource"};

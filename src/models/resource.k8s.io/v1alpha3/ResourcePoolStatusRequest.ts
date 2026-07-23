@@ -39,6 +39,7 @@ export class ResourcePoolStatusRequest extends Model<IResourcePoolStatusRequest>
 static apiVersion: IResourcePoolStatusRequest["apiVersion"] = "resource.k8s.io/v1alpha3";
 static kind: IResourcePoolStatusRequest["kind"] = "ResourcePoolStatusRequest";
 static is: TypeMetaGuard<IResourcePoolStatusRequest> = createTypeMetaGuard<IResourcePoolStatusRequest>(ResourcePoolStatusRequest);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IResourcePoolStatusRequest>) {
   super();

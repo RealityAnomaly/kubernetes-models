@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ValidatingWebhookConfigurationList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"KmJtbxjKRbXdsyADIcJYH0lVv-K8B7QYvkcPlXiYrvM"},"items":{"$ref":"oDZuQvP0zi8yBQ5IHyIuVpEQNjzrLoh21df76H35ayE"},"kind":{"$ref":"jRPTkAxtHKa57sTJZ_JYeMVdusziM8Z8ArbvAq9J_lA"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.admissionregistration.v1beta1.ValidatingWebhookConfigurationList"};

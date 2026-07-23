@@ -48,6 +48,7 @@ export class CertificateSigningRequest extends Model<ICertificateSigningRequest>
 static apiVersion: ICertificateSigningRequest["apiVersion"] = "certificates.k8s.io/v1";
 static kind: ICertificateSigningRequest["kind"] = "CertificateSigningRequest";
 static is: TypeMetaGuard<ICertificateSigningRequest> = createTypeMetaGuard<ICertificateSigningRequest>(CertificateSigningRequest);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ICertificateSigningRequest>) {
   super();

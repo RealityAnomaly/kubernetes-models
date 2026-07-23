@@ -39,6 +39,7 @@ export class TokenReview extends Model<ITokenReview> implements ITokenReview {
 static apiVersion: ITokenReview["apiVersion"] = "authentication.k8s.io/v1";
 static kind: ITokenReview["kind"] = "TokenReview";
 static is: TypeMetaGuard<ITokenReview> = createTypeMetaGuard<ITokenReview>(TokenReview);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ITokenReview>) {
   super();

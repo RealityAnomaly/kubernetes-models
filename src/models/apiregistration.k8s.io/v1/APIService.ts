@@ -39,6 +39,7 @@ export class APIService extends Model<IAPIService> implements IAPIService {
 static apiVersion: IAPIService["apiVersion"] = "apiregistration.k8s.io/v1";
 static kind: IAPIService["kind"] = "APIService";
 static is: TypeMetaGuard<IAPIService> = createTypeMetaGuard<IAPIService>(APIService);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IAPIService>) {
   super();

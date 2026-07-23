@@ -35,6 +35,7 @@ export class EndpointsList extends Model<IEndpointsList> implements IEndpointsLi
 static apiVersion: IEndpointsList["apiVersion"] = "v1";
 static kind: IEndpointsList["kind"] = "EndpointsList";
 static is: TypeMetaGuard<IEndpointsList> = createTypeMetaGuard<IEndpointsList>(EndpointsList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IEndpointsList>) {
   super();

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./SELinuxStrategyOptions.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"rule":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"seLinuxOptions":{"$ref":"Ws2Xy2YELmRVB0VQESDuPP2DGdNZOe9n7LNUeX7t1-M"}},"required":["rule"],"type":"object","$id":"io.k8s.api.policy.v1beta1.SELinuxStrategyOptions"};

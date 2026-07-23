@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DownwardAPIProjection.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"items":{"$ref":"krzam2IFG3_TrBdtLJhXXmTEMLuQPMMTUGo31eWBMJs"}},"type":"object","$id":"io.k8s.api.core.v1.DownwardAPIProjection"};

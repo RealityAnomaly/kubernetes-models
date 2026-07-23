@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./AllowedHostPath.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"pathPrefix":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"readOnly":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"}},"type":"object","$id":"io.k8s.api.extensions.v1beta1.AllowedHostPath"};

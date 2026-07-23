@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeAffinity.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"preferredDuringSchedulingIgnoredDuringExecution":{"$ref":"LFjKSxHy72QNqbdCYe6kMTik3p4fV-86wXfy9TdXpTA"},"requiredDuringSchedulingIgnoredDuringExecution":{"$ref":"TkSNaYWIxhO85OVX_cSWzmQgv784eOxf9GMx98WTU1I"}},"type":"object","$id":"io.k8s.api.core.v1.NodeAffinity"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CSINodeSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"drivers":{"$ref":"zAsLutrIAURmF-zvS07xW2YQQD27eY05LjN5HwNitFU"}},"required":["drivers"],"type":"object","$id":"io.k8s.api.storage.v1.CSINodeSpec"};

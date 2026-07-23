@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CertificateSigningRequest.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"Sra-NRo7CefYbfypn7c7Pu1mjpat95wYOHmqlWMFPSo"},"kind":{"$ref":"MYcmnu7x4Ms9B4PNBtv_05Wgu7YNVsjUM8WzH4Fc3zA"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"2fx9KERrhepSSVOa-j78kQ3AFqflBDv9sO8wXtVTNdg"},"status":{"$ref":"dFge-4OD-nJeS3YMcyYLWRUFMLJ-EM6wbuzEeAJPYCA"}},"required":["spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.certificates.v1.CertificateSigningRequest"};

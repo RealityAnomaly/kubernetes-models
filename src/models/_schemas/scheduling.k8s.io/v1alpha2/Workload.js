@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Workload.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"5pY-oklhJpKtSHNMeCeDBPhql0poW2YUEPr4Nv9aMyI"},"kind":{"$ref":"FFKmSBKsIijl1ETTVpJyY9rV8Dyq_b5GAWHS3wAPeck"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"R8GFCtPRihlsJdVxmxlkHV6_rgNWDfHhZ9otN7AfCrc"}},"required":["spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.scheduling.v1alpha2.Workload"};

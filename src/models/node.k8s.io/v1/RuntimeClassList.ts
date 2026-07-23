@@ -33,6 +33,7 @@ export class RuntimeClassList extends Model<IRuntimeClassList> implements IRunti
 static apiVersion: IRuntimeClassList["apiVersion"] = "node.k8s.io/v1";
 static kind: IRuntimeClassList["kind"] = "RuntimeClassList";
 static is: TypeMetaGuard<IRuntimeClassList> = createTypeMetaGuard<IRuntimeClassList>(RuntimeClassList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IRuntimeClassList>) {
   super();

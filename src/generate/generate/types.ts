@@ -31,6 +31,7 @@ export interface Definition {
   gvk?: readonly GroupVersionKind[];
   schemaId: string;
   schema: Schema;
+  scope: 'Cluster' | 'Namespaced' | '\\*';
 }
 
 export interface OutputFile {

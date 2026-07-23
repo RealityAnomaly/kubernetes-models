@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./StatefulSetList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"IIVpt_eGpPs-NaezRT_6t4CKA4l1KBwOFJ-0uORvRF0"},"items":{"$ref":"psY-C8us2cWvjTDeoxPzQphf7Oux72NncKOgjR5O-p8"},"kind":{"$ref":"jXLyHXPZ33j7N73KSmf9Gjmu1yng5CUiJd1nOA4xeGk"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.apps.v1.StatefulSetList"};

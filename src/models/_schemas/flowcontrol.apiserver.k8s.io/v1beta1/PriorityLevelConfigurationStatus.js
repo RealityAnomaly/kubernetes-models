@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PriorityLevelConfigurationStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"conditions":{"$ref":"RIUyF6murB4iRhyONfwQWEo5EytGm0qHQIgW8eCcZ8I"}},"type":"object","$id":"io.k8s.api.flowcontrol.v1beta1.PriorityLevelConfigurationStatus"};

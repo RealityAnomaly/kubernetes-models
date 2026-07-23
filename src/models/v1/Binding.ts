@@ -33,6 +33,7 @@ export class Binding extends Model<IBinding> implements IBinding {
 static apiVersion: IBinding["apiVersion"] = "v1";
 static kind: IBinding["kind"] = "Binding";
 static is: TypeMetaGuard<IBinding> = createTypeMetaGuard<IBinding>(Binding);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IBinding>) {
   super();

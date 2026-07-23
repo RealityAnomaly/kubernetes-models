@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NonResourcePolicyRule.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"nonResourceURLs":{"$ref":"uqUtVyG9D2UAWDvqosEgVMtwK5kI3TMy2eLbDZB452I"},"verbs":{"$ref":"uqUtVyG9D2UAWDvqosEgVMtwK5kI3TMy2eLbDZB452I"}},"required":["verbs","nonResourceURLs"],"type":"object","$id":"io.k8s.api.flowcontrol.v1beta2.NonResourcePolicyRule"};

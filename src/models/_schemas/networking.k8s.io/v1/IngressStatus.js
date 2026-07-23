@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./IngressStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"loadBalancer":{"$ref":"-5S7qGSDar90JRFW7EizZoXubqmzgS8cybeINEYc3aI"}},"type":"object","$id":"io.k8s.api.networking.v1.IngressStatus"};

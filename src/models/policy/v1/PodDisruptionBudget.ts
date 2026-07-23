@@ -39,6 +39,7 @@ export class PodDisruptionBudget extends Model<IPodDisruptionBudget> implements 
 static apiVersion: IPodDisruptionBudget["apiVersion"] = "policy/v1";
 static kind: IPodDisruptionBudget["kind"] = "PodDisruptionBudget";
 static is: TypeMetaGuard<IPodDisruptionBudget> = createTypeMetaGuard<IPodDisruptionBudget>(PodDisruptionBudget);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodDisruptionBudget>) {
   super();

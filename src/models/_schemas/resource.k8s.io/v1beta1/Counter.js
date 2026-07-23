@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Counter.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"value":{"$ref":"VKZPUldlWDa056CXEqKHCNMaIxOA7qIsmePtey64Cuk"}},"required":["value"],"type":"object","$id":"io.k8s.api.resource.v1beta1.Counter"};

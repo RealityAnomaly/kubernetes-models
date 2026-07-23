@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./SubjectRulesReviewStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"evaluationError":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"incomplete":{"$ref":"C6hei-tisjs1kz7xDhDJSDhsoUlCo3cumzNSDD7Je7A"},"nonResourceRules":{"$ref":"WT5b3Ps7_4W8pRiqUDErtCtD8W3OQfRA_s1nqd1R9XA"},"resourceRules":{"$ref":"HNNFcLYecsmIGeixJ_LRobQqs62ds12aacv3l0LoivA"}},"required":["resourceRules","nonResourceRules","incomplete"],"type":"object","$id":"io.k8s.api.authorization.v1.SubjectRulesReviewStatus"};

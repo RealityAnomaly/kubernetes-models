@@ -33,6 +33,7 @@ export class CronJobList extends Model<ICronJobList> implements ICronJobList {
 static apiVersion: ICronJobList["apiVersion"] = "batch/v1";
 static kind: ICronJobList["kind"] = "CronJobList";
 static is: TypeMetaGuard<ICronJobList> = createTypeMetaGuard<ICronJobList>(CronJobList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ICronJobList>) {
   super();

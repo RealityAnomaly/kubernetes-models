@@ -163,6 +163,7 @@ static apiVersion: ${shortInterfaceName}["apiVersion"] = "${getAPIVersion(
           )}";
 static kind: ${shortInterfaceName}["kind"] = "${gvk.kind}";
 static is: TypeMetaGuard<${shortInterfaceName}> = createTypeMetaGuard<${shortInterfaceName}>(${shortClassName});
+static scope: string = "${def.scope ?? '\\\\*'}";
 
 constructor(data?: ModelData<${shortInterfaceName}>) {
   super();

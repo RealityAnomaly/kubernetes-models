@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ServerAddressByClientCIDR.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"clientCIDR":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"serverAddress":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["clientCIDR","serverAddress"],"type":"object","$id":"io.k8s.apimachinery.pkg.apis.meta.v1.ServerAddressByClientCIDR"};

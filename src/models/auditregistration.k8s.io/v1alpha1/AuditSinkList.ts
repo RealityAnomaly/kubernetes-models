@@ -30,6 +30,7 @@ export class AuditSinkList extends Model<IAuditSinkList> implements IAuditSinkLi
 static apiVersion: IAuditSinkList["apiVersion"] = "auditregistration.k8s.io/v1alpha1";
 static kind: IAuditSinkList["kind"] = "AuditSinkList";
 static is: TypeMetaGuard<IAuditSinkList> = createTypeMetaGuard<IAuditSinkList>(AuditSinkList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IAuditSinkList>) {
   super();

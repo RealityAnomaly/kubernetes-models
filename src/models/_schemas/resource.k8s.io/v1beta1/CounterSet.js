@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CounterSet.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"counters":{"$ref":"8R2ZhtU3o2C5lj3Kgmft40Nh3G0SjjNK7fAil66WGnk"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["name","counters"],"type":"object","$id":"io.k8s.api.resource.v1beta1.CounterSet"};

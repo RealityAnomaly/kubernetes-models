@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./LabelSelectorAttributes.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"rawSelector":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"requirements":{"$ref":"Sq5uNRMundU4aMwOfgz0VhZ5rUzwCqE3gyQS1yE-TDo"}},"type":"object","$id":"io.k8s.api.authorization.v1.LabelSelectorAttributes"};

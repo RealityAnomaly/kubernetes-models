@@ -39,6 +39,7 @@ export class StorageVersionMigration extends Model<IStorageVersionMigration> imp
 static apiVersion: IStorageVersionMigration["apiVersion"] = "storagemigration.k8s.io/v1beta1";
 static kind: IStorageVersionMigration["kind"] = "StorageVersionMigration";
 static is: TypeMetaGuard<IStorageVersionMigration> = createTypeMetaGuard<IStorageVersionMigration>(StorageVersionMigration);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IStorageVersionMigration>) {
   super();

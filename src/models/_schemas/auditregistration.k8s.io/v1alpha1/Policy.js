@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Policy.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"level":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"stages":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"}},"required":["level"],"type":"object","$id":"io.k8s.api.auditregistration.v1alpha1.Policy"};

@@ -36,6 +36,7 @@ export class SelfSubjectAccessReview extends Model<ISelfSubjectAccessReview> imp
 static apiVersion: ISelfSubjectAccessReview["apiVersion"] = "authorization.k8s.io/v1beta1";
 static kind: ISelfSubjectAccessReview["kind"] = "SelfSubjectAccessReview";
 static is: TypeMetaGuard<ISelfSubjectAccessReview> = createTypeMetaGuard<ISelfSubjectAccessReview>(SelfSubjectAccessReview);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ISelfSubjectAccessReview>) {
   super();

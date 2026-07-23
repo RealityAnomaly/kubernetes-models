@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./StorageClass.d.ts" */
 export const validate = validate2;
 const schema2 = {"properties":{"allowVolumeExpansion":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"allowedTopologies":{"$ref":"9ww-QPZNRJMPT4b0SC-V-W1wknmUIqhNcrgq4h_yvro"},"apiVersion":{"$ref":"VqCulr_ZES6zbEl6HyGvOlGSJNmM2F7NvLFbdnOvTVs"},"kind":{"$ref":"q62o6VLDq6bmGEptsKPUZ9nFjyUsuuT5QstoHCQKuTU"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"mountOptions":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"},"parameters":{"$ref":"Ul_dhUdbb_DarDhfw0mKkpjzZdc0vNqkGhUAaKt2b7M"},"provisioner":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"reclaimPolicy":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"volumeBindingMode":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"required":["provisioner","apiVersion","kind"],"type":"object","$id":"io.k8s.api.storage.v1beta1.StorageClass"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CinderPersistentVolumeSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"fsType":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"readOnly":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"secretRef":{"$ref":"1a3NqiktqyZHHY3Qk2TC-_08DZCxXEI_qoSZ_ClP6qA"},"volumeID":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["volumeID"],"type":"object","$id":"io.k8s.api.core.v1.CinderPersistentVolumeSource"};

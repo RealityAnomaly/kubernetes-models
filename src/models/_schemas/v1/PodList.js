@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"_-ZvS-rLxHiNEArQOhevVo83klxV-qnul8X_v4BZ4M4"},"items":{"$ref":"QjeHlOoRLfhfgN1QPTmCYeDka7mXsFIb9svkR_qxzQk"},"kind":{"$ref":"64ZWrL6tk0iRY1KhgbrJmZU4UZxJlva4VmxGoKURpBc"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.core.v1.PodList"};

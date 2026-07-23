@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./StorageVersionStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"commonEncodingVersion":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"conditions":{"$ref":"jvq1SMNu2OZ_1QCji0PN3vGXr7y_0Tx21z0GpKD12k0"},"storageVersions":{"$ref":"MV9IjTWMF6prQCgC_x14QpT0HleP56xSy58wHFCyHa0"}},"type":"object","$id":"io.k8s.api.apiserverinternal.v1alpha1.StorageVersionStatus"};

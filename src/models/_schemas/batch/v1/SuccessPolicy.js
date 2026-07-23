@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./SuccessPolicy.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"rules":{"$ref":"KjmWy7QqgaQ05TACw4mikk8b0UX6sM1jtznzrhei1YM"}},"required":["rules"],"type":"object","$id":"io.k8s.api.batch.v1.SuccessPolicy"};

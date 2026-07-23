@@ -39,6 +39,7 @@ export class Scale extends Model<IScale> implements IScale {
 static apiVersion: IScale["apiVersion"] = "apps/v1beta1";
 static kind: IScale["kind"] = "Scale";
 static is: TypeMetaGuard<IScale> = createTypeMetaGuard<IScale>(Scale);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IScale>) {
   super();

@@ -33,6 +33,7 @@ export class ResourceClassList extends Model<IResourceClassList> implements IRes
 static apiVersion: IResourceClassList["apiVersion"] = "resource.k8s.io/v1alpha1";
 static kind: IResourceClassList["kind"] = "ResourceClassList";
 static is: TypeMetaGuard<IResourceClassList> = createTypeMetaGuard<IResourceClassList>(ResourceClassList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IResourceClassList>) {
   super();

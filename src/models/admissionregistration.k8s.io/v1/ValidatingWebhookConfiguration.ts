@@ -33,6 +33,7 @@ export class ValidatingWebhookConfiguration extends Model<IValidatingWebhookConf
 static apiVersion: IValidatingWebhookConfiguration["apiVersion"] = "admissionregistration.k8s.io/v1";
 static kind: IValidatingWebhookConfiguration["kind"] = "ValidatingWebhookConfiguration";
 static is: TypeMetaGuard<IValidatingWebhookConfiguration> = createTypeMetaGuard<IValidatingWebhookConfiguration>(ValidatingWebhookConfiguration);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IValidatingWebhookConfiguration>) {
   super();

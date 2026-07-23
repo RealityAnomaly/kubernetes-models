@@ -33,6 +33,7 @@ export class SecretList extends Model<ISecretList> implements ISecretList {
 static apiVersion: ISecretList["apiVersion"] = "v1";
 static kind: ISecretList["kind"] = "SecretList";
 static is: TypeMetaGuard<ISecretList> = createTypeMetaGuard<ISecretList>(SecretList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ISecretList>) {
   super();

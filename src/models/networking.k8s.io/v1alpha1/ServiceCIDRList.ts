@@ -33,6 +33,7 @@ export class ServiceCIDRList extends Model<IServiceCIDRList> implements IService
 static apiVersion: IServiceCIDRList["apiVersion"] = "networking.k8s.io/v1alpha1";
 static kind: IServiceCIDRList["kind"] = "ServiceCIDRList";
 static is: TypeMetaGuard<IServiceCIDRList> = createTypeMetaGuard<IServiceCIDRList>(ServiceCIDRList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IServiceCIDRList>) {
   super();

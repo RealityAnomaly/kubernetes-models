@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./WorkloadPodGroupTemplateReference.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"podGroupTemplateName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"workloadName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["workloadName","podGroupTemplateName"],"type":"object","$id":"io.k8s.api.scheduling.v1alpha2.WorkloadPodGroupTemplateReference"};

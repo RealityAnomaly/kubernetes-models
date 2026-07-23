@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./FlowDistinguisherMethod.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"type":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["type"],"type":"object","$id":"io.k8s.api.flowcontrol.v1beta2.FlowDistinguisherMethod"};

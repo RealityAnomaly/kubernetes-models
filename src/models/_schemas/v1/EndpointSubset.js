@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./EndpointSubset.d.ts" */
 export const validate = validate5;
 const schema3 = {"properties":{"addresses":{"$ref":"ZZorem0dgaA7mng0Jo6afgw7OpKPAK_DlZWM9bW5c5A"},"notReadyAddresses":{"$ref":"ZZorem0dgaA7mng0Jo6afgw7OpKPAK_DlZWM9bW5c5A"},"ports":{"$ref":"_eHBUXglvieoYjK2ELbUKS4K8lsxEbsicZQj_sQxJ24"}},"type":"object","$id":"io.k8s.api.core.v1.EndpointSubset"};

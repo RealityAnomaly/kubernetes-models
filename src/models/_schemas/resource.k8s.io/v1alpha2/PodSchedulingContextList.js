@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodSchedulingContextList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"S8fQs5b8d_o6Mwyyipqll0kFyW-w4flYhC3Wcb4vRpg"},"items":{"$ref":"xDp-DDR7s3BtTj5fdGNyH2r55Cetf12bEUJc7La4Xtk"},"kind":{"$ref":"R1RxwqodBwL3G2Bti5DBcMAN4mXnWWWM4ioZCCdPmWA"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.resource.v1alpha2.PodSchedulingContextList"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PersistentVolumeClaimStatus.d.ts" */
 export const validate = validate7;
 const schema5 = {"properties":{"accessModes":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"},"allocatedResourceStatuses":{"$ref":"Ul_dhUdbb_DarDhfw0mKkpjzZdc0vNqkGhUAaKt2b7M"},"allocatedResources":{"$ref":"YfMVS3P5aWVrkVb6yChl1fVwg8EQjbWuoJkKTJAHr6A"},"capacity":{"$ref":"YfMVS3P5aWVrkVb6yChl1fVwg8EQjbWuoJkKTJAHr6A"},"conditions":{"$ref":"g7TXAlMXXb3FwvrJwUVy5yThiJvOYmd4qG3u2I9GpAs"},"currentVolumeAttributesClassName":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"modifyVolumeStatus":{"$ref":"RVNEulIR6oodvoBxla0K-FiXGrjQc74Su_0ltyr5z6c"},"phase":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.core.v1.PersistentVolumeClaimStatus"};

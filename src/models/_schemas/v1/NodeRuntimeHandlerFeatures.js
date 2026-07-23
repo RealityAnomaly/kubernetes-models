@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeRuntimeHandlerFeatures.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"recursiveReadOnlyMounts":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"userNamespaces":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"}},"type":"object","$id":"io.k8s.api.core.v1.NodeRuntimeHandlerFeatures"};

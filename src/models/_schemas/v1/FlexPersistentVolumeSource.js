@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./FlexPersistentVolumeSource.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"driver":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"fsType":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"options":{"$ref":"Ul_dhUdbb_DarDhfw0mKkpjzZdc0vNqkGhUAaKt2b7M"},"readOnly":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"secretRef":{"$ref":"1a3NqiktqyZHHY3Qk2TC-_08DZCxXEI_qoSZ_ClP6qA"}},"required":["driver"],"type":"object","$id":"io.k8s.api.core.v1.FlexPersistentVolumeSource"};

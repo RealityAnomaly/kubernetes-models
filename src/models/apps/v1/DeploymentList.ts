@@ -33,6 +33,7 @@ export class DeploymentList extends Model<IDeploymentList> implements IDeploymen
 static apiVersion: IDeploymentList["apiVersion"] = "apps/v1";
 static kind: IDeploymentList["kind"] = "DeploymentList";
 static is: TypeMetaGuard<IDeploymentList> = createTypeMetaGuard<IDeploymentList>(DeploymentList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IDeploymentList>) {
   super();

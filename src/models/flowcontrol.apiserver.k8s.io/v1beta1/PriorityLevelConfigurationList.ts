@@ -33,6 +33,7 @@ export class PriorityLevelConfigurationList extends Model<IPriorityLevelConfigur
 static apiVersion: IPriorityLevelConfigurationList["apiVersion"] = "flowcontrol.apiserver.k8s.io/v1beta1";
 static kind: IPriorityLevelConfigurationList["kind"] = "PriorityLevelConfigurationList";
 static is: TypeMetaGuard<IPriorityLevelConfigurationList> = createTypeMetaGuard<IPriorityLevelConfigurationList>(PriorityLevelConfigurationList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPriorityLevelConfigurationList>) {
   super();

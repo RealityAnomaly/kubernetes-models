@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./WebhookConversion.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"clientConfig":{"$ref":"BcrueWMHETTmIAsB6nsYy2S-0WWXl8I6s9F89hsdYog"},"conversionReviewVersions":{"$ref":"uqUtVyG9D2UAWDvqosEgVMtwK5kI3TMy2eLbDZB452I"}},"required":["conversionReviewVersions"],"type":"object","$id":"io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.WebhookConversion"};

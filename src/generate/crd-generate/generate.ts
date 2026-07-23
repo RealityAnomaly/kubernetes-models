@@ -1,4 +1,3 @@
-import { parseAll } from "@std/yaml";
 import { mapValues } from "@es-toolkit/es-toolkit";
 import {
   composeGenerators,
@@ -12,6 +11,8 @@ import generateDefinitions from "./generators/definition.ts";
 import generateAliases from "./generators/alias.ts";
 import generateSchemas from "./generators/schema.ts";
 
+type CustomResourceDefinitionScope = 'Cluster' | 'Namespaced' | '\\*';
+
 interface CustomResourceDefinition {
   spec: CustomResourceDefinitionSpec;
 }
@@ -22,6 +23,7 @@ interface CustomResourceDefinitionSpec {
   validation?: CustomResourceDefinitionValidation;
   version?: string;
   versions?: CustomResourceDefinitionVersion[];
+  scope: CustomResourceDefinitionScope;
 }
 
 interface CustomResourceDefinitionNames {
@@ -81,6 +83,7 @@ function formatSchema(schema: Schema): Schema {
 function generateDefinition(
   gvk: GroupVersionKind,
   validation: CustomResourceDefinitionValidation,
+  scope: CustomResourceDefinitionScope,
 ): Definition {
   const {
     properties = {},
@@ -111,6 +114,7 @@ function generateDefinition(
     gvk: [gvk],
     schemaId: `${gvk.group}.${gvk.version}.${gvk.kind}`,
     schema,
+    scope,
   };
 }
 
@@ -175,7 +179,7 @@ export async function generate(options: GenerateOptions): Promise<void> {
         };
 
         if (validation) {
-          definitions.push(generateDefinition(gvk, validation));
+          definitions.push(generateDefinition(gvk, validation, crd.spec.scope));
         }
       }
     } else if (crd.spec.version) {
@@ -187,7 +191,7 @@ export async function generate(options: GenerateOptions): Promise<void> {
       };
 
       if (validation) {
-        definitions.push(generateDefinition(gvk, validation));
+        definitions.push(generateDefinition(gvk, validation, crd.spec.scope));
       }
     }
   }

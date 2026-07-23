@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Overhead.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"podFixed":{"$ref":"YfMVS3P5aWVrkVb6yChl1fVwg8EQjbWuoJkKTJAHr6A"}},"type":"object","$id":"io.k8s.api.node.v1alpha1.Overhead"};

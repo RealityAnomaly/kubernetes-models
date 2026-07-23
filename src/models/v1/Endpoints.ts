@@ -67,6 +67,7 @@ export class Endpoints extends Model<IEndpoints> implements IEndpoints {
 static apiVersion: IEndpoints["apiVersion"] = "v1";
 static kind: IEndpoints["kind"] = "Endpoints";
 static is: TypeMetaGuard<IEndpoints> = createTypeMetaGuard<IEndpoints>(Endpoints);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IEndpoints>) {
   super();

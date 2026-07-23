@@ -47,6 +47,7 @@ export class StatefulSet extends Model<IStatefulSet> implements IStatefulSet {
 static apiVersion: IStatefulSet["apiVersion"] = "apps/v1";
 static kind: IStatefulSet["kind"] = "StatefulSet";
 static is: TypeMetaGuard<IStatefulSet> = createTypeMetaGuard<IStatefulSet>(StatefulSet);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IStatefulSet>) {
   super();

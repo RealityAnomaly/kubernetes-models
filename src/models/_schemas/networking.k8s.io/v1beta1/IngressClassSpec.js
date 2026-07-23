@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./IngressClassSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"controller":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"parameters":{"$ref":"QUaCijLr-YTYNe_mFwsskeFY-0Fqrf02v9vcsAOZ1zA"}},"type":"object","$id":"io.k8s.api.networking.v1beta1.IngressClassSpec"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RuntimeClass.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"HZdXhd_uF4BTJHmULN230859fUkrMACyxLGRJmF8nkc"},"handler":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"kind":{"$ref":"c7r_8ND-9FJX5HDERETmEKjItQJkLwttle--DPMkyOk"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"overhead":{"$ref":"fhlLkGUXgm4pKGGYZbmjwAyJYHdZytvg6mTNwOipXJM"},"scheduling":{"$ref":"uU70XReBtfidt4XyOEL1YOB2NZr2tCEqrxlC9QKVN3E"}},"required":["handler","apiVersion","kind"],"type":"object","$id":"io.k8s.api.node.v1beta1.RuntimeClass"};

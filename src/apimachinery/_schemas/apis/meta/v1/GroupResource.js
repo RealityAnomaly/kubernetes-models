@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./GroupResource.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"group":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"resource":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["group","resource"],"type":"object","$id":"io.k8s.apimachinery.pkg.apis.meta.v1.GroupResource"};

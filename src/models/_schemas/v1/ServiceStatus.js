@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ServiceStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"conditions":{"$ref":"jI7gN-jH9FiRLjopJCUTgArdnLwDtZcYfDbNHkOZBp0"},"loadBalancer":{"$ref":"cqj9qARGBeZwMzXujoENpVq6BIDucc9apvKThQnGm1A"}},"type":"object","$id":"io.k8s.api.core.v1.ServiceStatus"};

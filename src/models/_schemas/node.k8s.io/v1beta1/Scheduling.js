@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Scheduling.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"nodeSelector":{"$ref":"Ul_dhUdbb_DarDhfw0mKkpjzZdc0vNqkGhUAaKt2b7M"},"tolerations":{"$ref":"99pABxGOpM5kMhz23gIFtNrTrpLxZYHA4pvL_seEbl8"}},"type":"object","$id":"io.k8s.api.node.v1beta1.Scheduling"};

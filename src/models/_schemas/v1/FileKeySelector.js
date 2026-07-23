@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./FileKeySelector.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"key":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"optional":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"path":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"volumeName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["volumeName","path","key"],"type":"object","$id":"io.k8s.api.core.v1.FileKeySelector"};

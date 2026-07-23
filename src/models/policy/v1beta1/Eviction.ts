@@ -33,6 +33,7 @@ export class Eviction extends Model<IEviction> implements IEviction {
 static apiVersion: IEviction["apiVersion"] = "policy/v1beta1";
 static kind: IEviction["kind"] = "Eviction";
 static is: TypeMetaGuard<IEviction> = createTypeMetaGuard<IEviction>(Eviction);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IEviction>) {
   super();

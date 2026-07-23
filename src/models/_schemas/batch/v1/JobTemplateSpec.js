@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./JobTemplateSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"d-JzwUT8sG4qrx16RWVfPLyu1TPI5DxDFTV0RubqEeo"}},"type":"object","$id":"io.k8s.api.batch.v1.JobTemplateSpec"};

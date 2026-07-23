@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CronJob.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"OdhG_1Eyhgx7xM--eDQFyAjC1M3C_m7s531ZFZu457U"},"kind":{"$ref":"6xKv4pTdDB3wRvkqcIHiD8rkKZyVB7ADkjUy8OUN6Ao"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"lKw3HYhESvTqjXfDVJ7n3yKDqpn2VYwhSwoJ87ZsmNI"},"status":{"$ref":"-8O9hiS0W7I7Zj8m0nsYnrmUMsPRO80wZ-VPTvofvH4"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.batch.v2alpha1.CronJob"};

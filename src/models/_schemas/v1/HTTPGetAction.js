@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./HTTPGetAction.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"host":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"httpHeaders":{"$ref":"G-_Ni-4ukP5_Ns_rR9jZDggj-ILnn0Dv1DWJx_Flf0c"},"path":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"port":{"$ref":"yS5pCSiVGpupa9OmO1F_VB6GdySdwK2ye632rP_1v-U"},"scheme":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"required":["port"],"type":"object","$id":"io.k8s.api.core.v1.HTTPGetAction"};

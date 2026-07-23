@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ComponentStatusList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"_-ZvS-rLxHiNEArQOhevVo83klxV-qnul8X_v4BZ4M4"},"items":{"$ref":"0SIxSJ0Bv9N5IIMtFldy1T_L5__sAqFBBXN7PLSuXjo"},"kind":{"$ref":"Z06OgB-6HnUNvbhQ3SeU7W2Zl3zreLdZedeFjPUCt3c"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.core.v1.ComponentStatusList"};

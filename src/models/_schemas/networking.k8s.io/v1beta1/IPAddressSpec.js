@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./IPAddressSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"parentRef":{"$ref":"XKRbR4p5QS1Kc1J4MC5appHGiEsx7bv66y3-Z-7QM1c"}},"required":["parentRef"],"type":"object","$id":"io.k8s.api.networking.v1beta1.IPAddressSpec"};

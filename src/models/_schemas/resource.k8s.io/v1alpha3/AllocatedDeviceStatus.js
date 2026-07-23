@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./AllocatedDeviceStatus.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"conditions":{"$ref":"jI7gN-jH9FiRLjopJCUTgArdnLwDtZcYfDbNHkOZBp0"},"data":{"$ref":"AR60lTNTcsDH6BJnxZoUAUNlYvqVW-t68_Wkfh7upnM"},"device":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"driver":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"networkData":{"$ref":"goVbQwVx-kpoXmIsh2w0AXkeg7bZfAuNo3bgkuszEAs"},"pool":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["driver","pool","device"],"type":"object","$id":"io.k8s.api.resource.v1alpha3.AllocatedDeviceStatus"};

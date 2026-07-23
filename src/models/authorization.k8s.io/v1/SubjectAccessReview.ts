@@ -39,6 +39,7 @@ export class SubjectAccessReview extends Model<ISubjectAccessReview> implements 
 static apiVersion: ISubjectAccessReview["apiVersion"] = "authorization.k8s.io/v1";
 static kind: ISubjectAccessReview["kind"] = "SubjectAccessReview";
 static is: TypeMetaGuard<ISubjectAccessReview> = createTypeMetaGuard<ISubjectAccessReview>(SubjectAccessReview);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ISubjectAccessReview>) {
   super();

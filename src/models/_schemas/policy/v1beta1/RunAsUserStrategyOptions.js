@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RunAsUserStrategyOptions.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"ranges":{"$ref":"qi6VckmDbosM0Fj48Sr0LGPWeUAMhaoJmsMaeJWOf78"},"rule":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["rule"],"type":"object","$id":"io.k8s.api.policy.v1beta1.RunAsUserStrategyOptions"};

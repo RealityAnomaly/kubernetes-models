@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./MutatingAdmissionPolicyBinding.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"KmJtbxjKRbXdsyADIcJYH0lVv-K8B7QYvkcPlXiYrvM"},"kind":{"$ref":"WHez9aENn1gZzgBiHdDhvU6_hGehts0xB05WF9qS5hM"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"-usr-XMcA2nNvTr7ZlSeBeX7LY44BkAvjf1nWCMwgzE"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.admissionregistration.v1beta1.MutatingAdmissionPolicyBinding"};

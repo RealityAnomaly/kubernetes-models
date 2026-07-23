@@ -33,6 +33,7 @@ export class IngressClass extends Model<IIngressClass> implements IIngressClass 
 static apiVersion: IIngressClass["apiVersion"] = "networking.k8s.io/v1";
 static kind: IIngressClass["kind"] = "IngressClass";
 static is: TypeMetaGuard<IIngressClass> = createTypeMetaGuard<IIngressClass>(IngressClass);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IIngressClass>) {
   super();

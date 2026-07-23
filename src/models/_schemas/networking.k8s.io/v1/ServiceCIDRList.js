@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ServiceCIDRList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"bmUSx3GwTpT_skQdL_E-LdWligvUQoO8M-V4fX8HBv0"},"items":{"$ref":"sj6XGjr9Wj-KoT-MX1mUWSHjvXe7RK06Hi6vBxHDxUc"},"kind":{"$ref":"pVvttl--vV-ddyyiUB8HnnCBbOs_kCPh8jXZl9ninYU"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.networking.v1.ServiceCIDRList"};

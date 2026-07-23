@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./APIServiceStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"conditions":{"$ref":"p7J8-shqzAPjnRt9NMab-tML2jVxxl1e1KgqpvVoRU0"}},"type":"object","$id":"io.k8s.kube-aggregator.pkg.apis.apiregistration.v1.APIServiceStatus"};

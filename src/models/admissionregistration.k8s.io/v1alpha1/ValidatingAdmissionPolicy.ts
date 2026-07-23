@@ -39,6 +39,7 @@ export class ValidatingAdmissionPolicy extends Model<IValidatingAdmissionPolicy>
 static apiVersion: IValidatingAdmissionPolicy["apiVersion"] = "admissionregistration.k8s.io/v1alpha1";
 static kind: IValidatingAdmissionPolicy["kind"] = "ValidatingAdmissionPolicy";
 static is: TypeMetaGuard<IValidatingAdmissionPolicy> = createTypeMetaGuard<IValidatingAdmissionPolicy>(ValidatingAdmissionPolicy);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IValidatingAdmissionPolicy>) {
   super();

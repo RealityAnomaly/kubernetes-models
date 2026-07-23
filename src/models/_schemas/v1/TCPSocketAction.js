@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./TCPSocketAction.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"host":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"port":{"$ref":"yS5pCSiVGpupa9OmO1F_VB6GdySdwK2ye632rP_1v-U"}},"required":["port"],"type":"object","$id":"io.k8s.api.core.v1.TCPSocketAction"};

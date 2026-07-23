@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ModifyVolumeStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"status":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"targetVolumeAttributesClassName":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"required":["status"],"type":"object","$id":"io.k8s.api.core.v1.ModifyVolumeStatus"};

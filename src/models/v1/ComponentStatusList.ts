@@ -35,6 +35,7 @@ export class ComponentStatusList extends Model<IComponentStatusList> implements 
 static apiVersion: IComponentStatusList["apiVersion"] = "v1";
 static kind: IComponentStatusList["kind"] = "ComponentStatusList";
 static is: TypeMetaGuard<IComponentStatusList> = createTypeMetaGuard<IComponentStatusList>(ComponentStatusList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IComponentStatusList>) {
   super();

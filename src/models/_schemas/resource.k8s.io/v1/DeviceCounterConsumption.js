@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeviceCounterConsumption.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"counterSet":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"counters":{"$ref":"hZ3uNQpci-CP6oMWmng8zGQOhAXQxAVDAYzLaETWnpA"}},"required":["counterSet","counters"],"type":"object","$id":"io.k8s.api.resource.v1.DeviceCounterConsumption"};

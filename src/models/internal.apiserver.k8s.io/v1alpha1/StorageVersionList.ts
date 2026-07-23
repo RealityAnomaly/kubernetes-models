@@ -33,6 +33,7 @@ export class StorageVersionList extends Model<IStorageVersionList> implements IS
 static apiVersion: IStorageVersionList["apiVersion"] = "internal.apiserver.k8s.io/v1alpha1";
 static kind: IStorageVersionList["kind"] = "StorageVersionList";
 static is: TypeMetaGuard<IStorageVersionList> = createTypeMetaGuard<IStorageVersionList>(StorageVersionList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IStorageVersionList>) {
   super();

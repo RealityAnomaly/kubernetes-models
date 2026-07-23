@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./MatchResources.d.ts" */
 export const validate = validate8;
 const schema5 = {"properties":{"excludeResourceRules":{"$ref":"N4Pmco8zxktkaEyNCwQhiK4nX32FvBUUO3mbFjpBHQA"},"matchPolicy":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"namespaceSelector":{"$ref":"ft7HGURTbPyh-vhzFAYgnhVehb5DIkOC1Qu-kP-9F84"},"objectSelector":{"$ref":"ft7HGURTbPyh-vhzFAYgnhVehb5DIkOC1Qu-kP-9F84"},"resourceRules":{"$ref":"N4Pmco8zxktkaEyNCwQhiK4nX32FvBUUO3mbFjpBHQA"}},"type":"object","$id":"io.k8s.api.admissionregistration.v1beta1.MatchResources"};

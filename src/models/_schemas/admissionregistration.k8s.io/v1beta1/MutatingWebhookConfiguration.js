@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./MutatingWebhookConfiguration.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"KmJtbxjKRbXdsyADIcJYH0lVv-K8B7QYvkcPlXiYrvM"},"kind":{"$ref":"CSn1Q6fmcnNYjabUOkwjTd_rKNrQGxHh8S_J2NkueDg"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"webhooks":{"$ref":"XI934WwWTgx9nU5fFpaHV4iGhPb0UE_T9eoi_kQVjPQ"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.admissionregistration.v1beta1.MutatingWebhookConfiguration"};

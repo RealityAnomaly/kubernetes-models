@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodPresetSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"env":{"$ref":"tOvEOomFPQ11DQqhf-xjojT7Ag-xLjHW5nGYKYeaI_I"},"envFrom":{"$ref":"gWXSiRLIsl74n2BsEeonPQPvsBAUaLSJnw2Y47GiYSA"},"selector":{"$ref":"ft7HGURTbPyh-vhzFAYgnhVehb5DIkOC1Qu-kP-9F84"},"volumeMounts":{"$ref":"usBZjbtoQnfcayV0LpyAqd7GDbxbzL1_cSYXig8l_pY"},"volumes":{"$ref":"3N9lKvx5joFgj-YBYbTm2tddKXclNVN7K8xMGx8dILo"}},"type":"object","$id":"io.k8s.api.settings.v1alpha1.PodPresetSpec"};

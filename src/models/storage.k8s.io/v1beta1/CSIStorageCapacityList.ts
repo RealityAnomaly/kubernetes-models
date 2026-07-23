@@ -33,6 +33,7 @@ export class CSIStorageCapacityList extends Model<ICSIStorageCapacityList> imple
 static apiVersion: ICSIStorageCapacityList["apiVersion"] = "storage.k8s.io/v1beta1";
 static kind: ICSIStorageCapacityList["kind"] = "CSIStorageCapacityList";
 static is: TypeMetaGuard<ICSIStorageCapacityList> = createTypeMetaGuard<ICSIStorageCapacityList>(CSIStorageCapacityList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ICSIStorageCapacityList>) {
   super();

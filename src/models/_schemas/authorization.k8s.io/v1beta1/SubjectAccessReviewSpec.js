@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./SubjectAccessReviewSpec.d.ts" */
 export const validate = validate2;
 const schema2 = {"properties":{"extra":{"$ref":"cbHjaL27bsYoB-250qBeBZFfFlksf9O0Kclh9RM5vSg"},"group":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"},"nonResourceAttributes":{"$ref":"FAN_0j0o9S_oLroIv6dqemwvCJaODdRMX2-yBc5TTUY"},"resourceAttributes":{"$ref":"F7ECEbd6OemI8zv56i4nsOu4zPWtO5POrjaY3x36D50"},"uid":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"user":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.authorization.v1beta1.SubjectAccessReviewSpec"};

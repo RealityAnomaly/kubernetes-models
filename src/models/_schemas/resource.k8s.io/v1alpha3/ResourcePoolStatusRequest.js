@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ResourcePoolStatusRequest.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"JhWvHbSFO3ELsap4IWTkIXEjLRfpdwhmVqXnItVBFvQ"},"kind":{"$ref":"jCXYmjD2AUxhyM_U0rdJyocJ4QjS_kCgG6sn-3Q8Izg"},"metadata":{"$ref":"yYmnefnmsYn5-MOwxbbM2mBS0bwKIjMQRJHxUmcKHgU"},"spec":{"$ref":"3L414aPKxwFkP6MA1ZbVQOMX5W8uQ_nOk2BZTk-b3i4"},"status":{"$ref":"gfsxBu2c0cOql_5ee5zSUDurI9-zDHdf-u2MlMoc8IQ"}},"required":["metadata","spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.resource.v1alpha3.ResourcePoolStatusRequest"};

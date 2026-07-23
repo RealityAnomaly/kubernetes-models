@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CustomResourceValidation.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"openAPIV3Schema":{"$ref":"xcT2dzGkseZ1X4qwHxkLN9N_GEvOhT3V4Unyt8XDfHg"}},"type":"object","$id":"io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceValidation"};

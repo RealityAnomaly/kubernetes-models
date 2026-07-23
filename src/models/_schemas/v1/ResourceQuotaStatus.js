@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ResourceQuotaStatus.d.ts" */
 export const validate = validate5;
 const schema3 = {"properties":{"hard":{"$ref":"YfMVS3P5aWVrkVb6yChl1fVwg8EQjbWuoJkKTJAHr6A"},"used":{"$ref":"YfMVS3P5aWVrkVb6yChl1fVwg8EQjbWuoJkKTJAHr6A"}},"type":"object","$id":"io.k8s.api.core.v1.ResourceQuotaStatus"};

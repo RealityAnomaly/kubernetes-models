@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodGroupStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"conditions":{"$ref":"jI7gN-jH9FiRLjopJCUTgArdnLwDtZcYfDbNHkOZBp0"},"resourceClaimStatuses":{"$ref":"7afTAxT6S2mhdlzaHoeRoTAhjgcz7GpfEupULWzDV8s"}},"type":"object","$id":"io.k8s.api.scheduling.v1alpha2.PodGroupStatus"};

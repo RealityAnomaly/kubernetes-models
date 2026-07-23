@@ -55,6 +55,7 @@ export class Secret extends Model<ISecret> implements ISecret {
 static apiVersion: ISecret["apiVersion"] = "v1";
 static kind: ISecret["kind"] = "Secret";
 static is: TypeMetaGuard<ISecret> = createTypeMetaGuard<ISecret>(Secret);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ISecret>) {
   super();

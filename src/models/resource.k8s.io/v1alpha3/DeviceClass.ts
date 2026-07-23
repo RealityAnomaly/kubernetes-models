@@ -41,6 +41,7 @@ export class DeviceClass extends Model<IDeviceClass> implements IDeviceClass {
 static apiVersion: IDeviceClass["apiVersion"] = "resource.k8s.io/v1alpha3";
 static kind: IDeviceClass["kind"] = "DeviceClass";
 static is: TypeMetaGuard<IDeviceClass> = createTypeMetaGuard<IDeviceClass>(DeviceClass);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IDeviceClass>) {
   super();

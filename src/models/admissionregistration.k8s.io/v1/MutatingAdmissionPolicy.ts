@@ -33,6 +33,7 @@ export class MutatingAdmissionPolicy extends Model<IMutatingAdmissionPolicy> imp
 static apiVersion: IMutatingAdmissionPolicy["apiVersion"] = "admissionregistration.k8s.io/v1";
 static kind: IMutatingAdmissionPolicy["kind"] = "MutatingAdmissionPolicy";
 static is: TypeMetaGuard<IMutatingAdmissionPolicy> = createTypeMetaGuard<IMutatingAdmissionPolicy>(MutatingAdmissionPolicy);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IMutatingAdmissionPolicy>) {
   super();

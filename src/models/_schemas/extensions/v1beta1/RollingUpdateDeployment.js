@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RollingUpdateDeployment.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"maxSurge":{"$ref":"0Ic74D7DBbilZPLlK8sD9BMBs_dQWTMr2-XowApJQb0"},"maxUnavailable":{"$ref":"0Ic74D7DBbilZPLlK8sD9BMBs_dQWTMr2-XowApJQb0"}},"type":"object","$id":"io.k8s.api.extensions.v1beta1.RollingUpdateDeployment"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RoleList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"De87fb06yF1O97xgebZ6vmxJNCRPEZ95phqgm7gmOfs"},"items":{"$ref":"ptA1agEyLCiyNsZmnsGxm4MPYtVAhyaWcpXiVzvlUV4"},"kind":{"$ref":"_NYuSGvxEDaQxAB3-e_oOivtmqSYvwyB3qlSMJvQTnY"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.rbac.v1alpha1.RoleList"};

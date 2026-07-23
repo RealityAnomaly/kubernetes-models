@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./HorizontalPodAutoscaler.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"KtZhGzAR3p1yw0aXv-HtzSXiQeG9-uEC_mdFCrutAwM"},"kind":{"$ref":"TsDFHmgoNOM6biY3WjZaYrfqcS795wROaRKTBXw4qiw"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"0AMUiE9CGub5q6QHvcTvKhrQ4-nWh5CFKQB4vgfooeM"},"status":{"$ref":"hKrCzAXGgrn3gvKJR4uvIW0UKeU1SggX_NZRcUS_-6Y"}},"required":["spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.autoscaling.v1.HorizontalPodAutoscaler"};

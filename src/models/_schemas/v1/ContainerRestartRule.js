@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ContainerRestartRule.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"action":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"exitCodes":{"$ref":"ROzWXJNo4qpqlREdVuxc47sfuiKNvqCP9J8AtmPZn0k"}},"required":["action"],"type":"object","$id":"io.k8s.api.core.v1.ContainerRestartRule"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CustomResourceDefinitionVersion.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"additionalPrinterColumns":{"$ref":"2YqhsuMaeTkSLoHiFXhRmbpc7MpB4HU83FZKddCde7k"},"deprecated":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"deprecationWarning":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"schema":{"$ref":"vsfUQjaO7IJJBzQa-n4UGb-Z_LfsRGSzd5X1k3PJ8tk"},"served":{"$ref":"C6hei-tisjs1kz7xDhDJSDhsoUlCo3cumzNSDD7Je7A"},"storage":{"$ref":"C6hei-tisjs1kz7xDhDJSDhsoUlCo3cumzNSDD7Je7A"},"subresources":{"$ref":"z2gm6KOSgSAzb5jTB5siqa1om27pQf0T93s-0TmQs7U"}},"required":["name","served","storage"],"type":"object","$id":"io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionVersion"};

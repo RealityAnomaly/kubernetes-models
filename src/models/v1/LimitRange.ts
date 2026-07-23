@@ -33,6 +33,7 @@ export class LimitRange extends Model<ILimitRange> implements ILimitRange {
 static apiVersion: ILimitRange["apiVersion"] = "v1";
 static kind: ILimitRange["kind"] = "LimitRange";
 static is: TypeMetaGuard<ILimitRange> = createTypeMetaGuard<ILimitRange>(LimitRange);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ILimitRange>) {
   super();

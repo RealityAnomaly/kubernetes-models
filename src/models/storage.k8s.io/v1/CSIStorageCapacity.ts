@@ -73,6 +73,7 @@ export class CSIStorageCapacity extends Model<ICSIStorageCapacity> implements IC
 static apiVersion: ICSIStorageCapacity["apiVersion"] = "storage.k8s.io/v1";
 static kind: ICSIStorageCapacity["kind"] = "CSIStorageCapacity";
 static is: TypeMetaGuard<ICSIStorageCapacity> = createTypeMetaGuard<ICSIStorageCapacity>(CSIStorageCapacity);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ICSIStorageCapacity>) {
   super();

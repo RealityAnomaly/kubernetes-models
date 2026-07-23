@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ResourceMetricStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"current":{"$ref":"Sd-dcUbA0TL7oZp5fmtDBLHIG0jkAJjU29O4p-Jjvq4"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["name","current"],"type":"object","$id":"io.k8s.api.autoscaling.v2.ResourceMetricStatus"};

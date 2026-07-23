@@ -39,6 +39,7 @@ export class Namespace extends Model<INamespace> implements INamespace {
 static apiVersion: INamespace["apiVersion"] = "v1";
 static kind: INamespace["kind"] = "Namespace";
 static is: TypeMetaGuard<INamespace> = createTypeMetaGuard<INamespace>(Namespace);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<INamespace>) {
   super();

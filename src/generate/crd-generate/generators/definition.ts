@@ -51,6 +51,7 @@ static apiVersion: ${interfaceName}["apiVersion"] = ${JSON.stringify(
     )};
 static kind: ${interfaceName}["kind"] = ${JSON.stringify(gvk.kind)};
 static is: TypeMetaGuard<${interfaceName}> = createTypeMetaGuard<${interfaceName}>(${className});
+static scope: string = "${def.scope ?? '\\\\*'}";
 
 constructor(data?: ModelData<${interfaceName}>) {
   super();

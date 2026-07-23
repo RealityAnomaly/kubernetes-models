@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./SecretProjection.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"items":{"$ref":"8Wk-ynTc2BelUMN7bDaYKIeocW_gQ6wQLUVlv5vFw4M"},"name":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"optional":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"}},"type":"object","$id":"io.k8s.api.core.v1.SecretProjection"};

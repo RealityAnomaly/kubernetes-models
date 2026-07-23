@@ -41,6 +41,7 @@ export class Deployment extends Model<IDeployment> implements IDeployment {
 static apiVersion: IDeployment["apiVersion"] = "apps/v1beta2";
 static kind: IDeployment["kind"] = "Deployment";
 static is: TypeMetaGuard<IDeployment> = createTypeMetaGuard<IDeployment>(Deployment);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IDeployment>) {
   super();

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./GroupVersionForDiscovery.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"groupVersion":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"version":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["groupVersion","version"],"type":"object","$id":"io.k8s.apimachinery.pkg.apis.meta.v1.GroupVersionForDiscovery"};

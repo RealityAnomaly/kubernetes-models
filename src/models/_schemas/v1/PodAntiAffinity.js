@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodAntiAffinity.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"preferredDuringSchedulingIgnoredDuringExecution":{"$ref":"2KWKPRRt_RiZcSavs3nkCJEIVXAD0XngoKe6g8-_Mfc"},"requiredDuringSchedulingIgnoredDuringExecution":{"$ref":"xyXyQB7PStNXcsMh6tJF76ZLZ3k1mj6Ys4Pb7REI2kA"}},"type":"object","$id":"io.k8s.api.core.v1.PodAntiAffinity"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./FieldSelectorAttributes.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"rawSelector":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"requirements":{"$ref":"uStt30X1sAEmSJtIicD2VRAslsn-HXNRttmotaI9ET4"}},"type":"object","$id":"io.k8s.api.authorization.v1.FieldSelectorAttributes"};

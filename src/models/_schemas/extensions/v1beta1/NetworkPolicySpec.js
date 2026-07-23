@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NetworkPolicySpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"egress":{"$ref":"o9H0FDsG1q8L3gFoxd1PF_OBRhgwoBtA0APGS1QUbDw"},"ingress":{"$ref":"DHkO9T2Cbw7fidIrDFsw1cWnVOmxjQQzn6nIxpNj698"},"podSelector":{"$ref":"v9UPpZq80i3gaZjVxpGblXzp_E4dULDId73TGAJeg5U"},"policyTypes":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"}},"required":["podSelector"],"type":"object","$id":"io.k8s.api.extensions.v1beta1.NetworkPolicySpec"};

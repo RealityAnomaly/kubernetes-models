@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Lifecycle.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"postStart":{"$ref":"-92ZXZo_-Rc-9E5fR3sot11D9Z6qP8nhtK14lryJCy4"},"preStop":{"$ref":"-92ZXZo_-Rc-9E5fR3sot11D9Z6qP8nhtK14lryJCy4"},"stopSignal":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.core.v1.Lifecycle"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeConfigStatus.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"active":{"$ref":"OuFQ7ZYywai4I3ehbV5dfAFIiOSEets7pVgeM8dq1fE"},"assigned":{"$ref":"OuFQ7ZYywai4I3ehbV5dfAFIiOSEets7pVgeM8dq1fE"},"error":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"lastKnownGood":{"$ref":"OuFQ7ZYywai4I3ehbV5dfAFIiOSEets7pVgeM8dq1fE"}},"type":"object","$id":"io.k8s.api.core.v1.NodeConfigStatus"};

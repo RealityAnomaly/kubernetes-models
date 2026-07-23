@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./IngressRule.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"host":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"http":{"$ref":"8BmU2cvpeaK8Ziif1ulRj26_mHQ_oVMM2H4OhhdnYsA"}},"type":"object","$id":"io.k8s.api.networking.v1beta1.IngressRule"};

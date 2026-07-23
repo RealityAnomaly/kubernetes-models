@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeviceCapacity.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"requestPolicy":{"$ref":"AYOGC0jfN8aZNpa7aB7ia3PxiC6gg2S4LVLrJGUK6Xw"},"value":{"$ref":"VKZPUldlWDa056CXEqKHCNMaIxOA7qIsmePtey64Cuk"}},"required":["value"],"type":"object","$id":"io.k8s.api.resource.v1.DeviceCapacity"};

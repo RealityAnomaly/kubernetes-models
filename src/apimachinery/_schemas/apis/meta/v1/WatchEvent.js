@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./WatchEvent.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"object":{"$ref":"iqsaYtRYnjKnPQivTbpYZthqN78wC5VBsG5WXKWxuB4"},"type":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["type","object"],"type":"object","$id":"io.k8s.apimachinery.pkg.apis.meta.v1.WatchEvent"};

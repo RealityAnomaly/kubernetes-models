@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./TypeChecking.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"expressionWarnings":{"$ref":"yphCmJLdnMrgvPZqEHVuiNYeafpHaCXS51gOyUFQoqA"}},"type":"object","$id":"io.k8s.api.admissionregistration.v1alpha1.TypeChecking"};

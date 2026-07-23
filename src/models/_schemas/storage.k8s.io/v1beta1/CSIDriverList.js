@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CSIDriverList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"VqCulr_ZES6zbEl6HyGvOlGSJNmM2F7NvLFbdnOvTVs"},"items":{"$ref":"gD3k044zfoav0KusK2froRykj26zbSoKT12GKR6q3aM"},"kind":{"$ref":"A_I_RJHgMLuwmWHXuPfjUPuCjEJaD-dNHS5AJri6nTY"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.storage.v1beta1.CSIDriverList"};

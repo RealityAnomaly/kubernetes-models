@@ -41,6 +41,7 @@ export class ClusterTrustBundle extends Model<IClusterTrustBundle> implements IC
 static apiVersion: IClusterTrustBundle["apiVersion"] = "certificates.k8s.io/v1beta1";
 static kind: IClusterTrustBundle["kind"] = "ClusterTrustBundle";
 static is: TypeMetaGuard<IClusterTrustBundle> = createTypeMetaGuard<IClusterTrustBundle>(ClusterTrustBundle);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IClusterTrustBundle>) {
   super();

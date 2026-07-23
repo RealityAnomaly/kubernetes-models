@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ShardInfo.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"selector":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["selector"],"type":"object","$id":"io.k8s.apimachinery.pkg.apis.meta.v1.ShardInfo"};

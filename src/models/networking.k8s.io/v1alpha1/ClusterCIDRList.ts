@@ -33,6 +33,7 @@ export class ClusterCIDRList extends Model<IClusterCIDRList> implements ICluster
 static apiVersion: IClusterCIDRList["apiVersion"] = "networking.k8s.io/v1alpha1";
 static kind: IClusterCIDRList["kind"] = "ClusterCIDRList";
 static is: TypeMetaGuard<IClusterCIDRList> = createTypeMetaGuard<IClusterCIDRList>(ClusterCIDRList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IClusterCIDRList>) {
   super();

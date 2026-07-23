@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ApplyConfiguration.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"expression":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.admissionregistration.v1alpha1.ApplyConfiguration"};

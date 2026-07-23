@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./VolumeDevice.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"devicePath":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["name","devicePath"],"type":"object","$id":"io.k8s.api.core.v1.VolumeDevice"};

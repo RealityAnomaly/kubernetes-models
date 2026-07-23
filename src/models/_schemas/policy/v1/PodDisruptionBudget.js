@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodDisruptionBudget.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"eAyZa3na3YWtE-ukHIB1wyDKbrORzBVg00FMJMyk6bo"},"kind":{"$ref":"A-R2eycFpf6QbbctU_QgZ9u1fVRVDZ9S0wywDqqgbzg"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"waChfOF75Yww9tajudan_qjL-bnsYI2hwgxTz_ASaSE"},"status":{"$ref":"xx6dJ0HGc8BDGg98HF4jGW6Ui4MdZLVn4H07Iuubh_I"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.policy.v1.PodDisruptionBudget"};

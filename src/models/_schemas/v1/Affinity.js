@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Affinity.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"nodeAffinity":{"$ref":"MjpntAn6LDpTnq8wtNHayoIHTRWZWilzWqChfgsX5f0"},"podAffinity":{"$ref":"_2d5JOiJolIsoYs8FHFEt95U4hsMsR-Fv45MCQQy9sY"},"podAntiAffinity":{"$ref":"hTMF4UOGLzHJUO7cLIcAZlVClr01jeseVc5U-sdTnCM"}},"type":"object","$id":"io.k8s.api.core.v1.Affinity"};

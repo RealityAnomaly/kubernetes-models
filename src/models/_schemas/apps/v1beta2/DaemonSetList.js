@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DaemonSetList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"RDQeBsM8HVHjCtmNbr9yR2YpAM4M6c1514F3xJQr2qg"},"items":{"$ref":"ZMQSeovkybYZQTMeLXug3QNgjIIZfhGXS6dT81JHH2s"},"kind":{"$ref":"njcrG5FNQAnh0IvFUwoMgSAYrf7_HpsKpqlHar_86sM"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.apps.v1beta2.DaemonSetList"};

@@ -39,6 +39,7 @@ export class Node extends Model<INode> implements INode {
 static apiVersion: INode["apiVersion"] = "v1";
 static kind: INode["kind"] = "Node";
 static is: TypeMetaGuard<INode> = createTypeMetaGuard<INode>(Node);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<INode>) {
   super();

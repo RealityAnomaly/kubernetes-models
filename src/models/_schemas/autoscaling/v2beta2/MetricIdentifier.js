@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./MetricIdentifier.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"selector":{"$ref":"ft7HGURTbPyh-vhzFAYgnhVehb5DIkOC1Qu-kP-9F84"}},"required":["name"],"type":"object","$id":"io.k8s.api.autoscaling.v2beta2.MetricIdentifier"};

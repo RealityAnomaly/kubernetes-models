@@ -33,6 +33,7 @@ export class PersistentVolumeList extends Model<IPersistentVolumeList> implement
 static apiVersion: IPersistentVolumeList["apiVersion"] = "v1";
 static kind: IPersistentVolumeList["kind"] = "PersistentVolumeList";
 static is: TypeMetaGuard<IPersistentVolumeList> = createTypeMetaGuard<IPersistentVolumeList>(PersistentVolumeList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPersistentVolumeList>) {
   super();

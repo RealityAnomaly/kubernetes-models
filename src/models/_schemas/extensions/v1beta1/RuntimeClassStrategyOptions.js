@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RuntimeClassStrategyOptions.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"allowedRuntimeClassNames":{"$ref":"uqUtVyG9D2UAWDvqosEgVMtwK5kI3TMy2eLbDZB452I"},"defaultRuntimeClassName":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"required":["allowedRuntimeClassNames"],"type":"object","$id":"io.k8s.api.extensions.v1beta1.RuntimeClassStrategyOptions"};

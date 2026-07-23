@@ -33,6 +33,7 @@ export class EndpointSliceList extends Model<IEndpointSliceList> implements IEnd
 static apiVersion: IEndpointSliceList["apiVersion"] = "discovery.k8s.io/v1";
 static kind: IEndpointSliceList["kind"] = "EndpointSliceList";
 static is: TypeMetaGuard<IEndpointSliceList> = createTypeMetaGuard<IEndpointSliceList>(EndpointSliceList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IEndpointSliceList>) {
   super();

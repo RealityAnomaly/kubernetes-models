@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./IngressClassList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"NbOU3CLJOC5Y8-4b4BzjKPMTo0cEHwubLgw1tvnm2mw"},"items":{"$ref":"VWq4WifLC42zifpOCIp7vxip50aOYaEK20UgdM-TO5w"},"kind":{"$ref":"QJVeiKrTltAxkUwAfnVf91RuGIBQnhr2mFNqgO9mWII"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.networking.v1beta1.IngressClassList"};

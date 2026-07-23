@@ -39,6 +39,7 @@ export class Service extends Model<IService> implements IService {
 static apiVersion: IService["apiVersion"] = "v1";
 static kind: IService["kind"] = "Service";
 static is: TypeMetaGuard<IService> = createTypeMetaGuard<IService>(Service);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IService>) {
   super();

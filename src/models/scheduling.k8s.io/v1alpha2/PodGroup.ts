@@ -39,6 +39,7 @@ export class PodGroup extends Model<IPodGroup> implements IPodGroup {
 static apiVersion: IPodGroup["apiVersion"] = "scheduling.k8s.io/v1alpha2";
 static kind: IPodGroup["kind"] = "PodGroup";
 static is: TypeMetaGuard<IPodGroup> = createTypeMetaGuard<IPodGroup>(PodGroup);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodGroup>) {
   super();

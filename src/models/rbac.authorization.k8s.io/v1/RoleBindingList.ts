@@ -33,6 +33,7 @@ export class RoleBindingList extends Model<IRoleBindingList> implements IRoleBin
 static apiVersion: IRoleBindingList["apiVersion"] = "rbac.authorization.k8s.io/v1";
 static kind: IRoleBindingList["kind"] = "RoleBindingList";
 static is: TypeMetaGuard<IRoleBindingList> = createTypeMetaGuard<IRoleBindingList>(RoleBindingList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IRoleBindingList>) {
   super();

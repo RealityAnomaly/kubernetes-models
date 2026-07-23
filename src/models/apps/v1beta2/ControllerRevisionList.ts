@@ -33,6 +33,7 @@ export class ControllerRevisionList extends Model<IControllerRevisionList> imple
 static apiVersion: IControllerRevisionList["apiVersion"] = "apps/v1beta2";
 static kind: IControllerRevisionList["kind"] = "ControllerRevisionList";
 static is: TypeMetaGuard<IControllerRevisionList> = createTypeMetaGuard<IControllerRevisionList>(ControllerRevisionList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IControllerRevisionList>) {
   super();

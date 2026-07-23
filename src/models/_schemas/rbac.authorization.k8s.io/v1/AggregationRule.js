@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./AggregationRule.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"clusterRoleSelectors":{"$ref":"_BBAV1qtNdoYTltIFTAlVFlg8Rw1gwm1AOS2ccN8np0"}},"type":"object","$id":"io.k8s.api.rbac.v1.AggregationRule"};

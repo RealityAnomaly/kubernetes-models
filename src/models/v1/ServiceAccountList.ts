@@ -33,6 +33,7 @@ export class ServiceAccountList extends Model<IServiceAccountList> implements IS
 static apiVersion: IServiceAccountList["apiVersion"] = "v1";
 static kind: IServiceAccountList["kind"] = "ServiceAccountList";
 static is: TypeMetaGuard<IServiceAccountList> = createTypeMetaGuard<IServiceAccountList>(ServiceAccountList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IServiceAccountList>) {
   super();

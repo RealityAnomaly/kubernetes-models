@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./BasicSchedulingPolicy.d.ts" */
 export const validate = validate0;
 const schema0 = {"type":"object","$id":"io.k8s.api.scheduling.v1alpha2.BasicSchedulingPolicy"};

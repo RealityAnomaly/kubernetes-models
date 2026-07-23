@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./VolumeNodeAffinity.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"required":{"$ref":"TkSNaYWIxhO85OVX_cSWzmQgv784eOxf9GMx98WTU1I"}},"type":"object","$id":"io.k8s.api.core.v1.VolumeNodeAffinity"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NetworkPolicyPeer.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"ipBlock":{"$ref":"WV6k2kStfvAOlrpgUzDImR-NYVQKMQDmAIxEff1izzA"},"namespaceSelector":{"$ref":"ft7HGURTbPyh-vhzFAYgnhVehb5DIkOC1Qu-kP-9F84"},"podSelector":{"$ref":"ft7HGURTbPyh-vhzFAYgnhVehb5DIkOC1Qu-kP-9F84"}},"type":"object","$id":"io.k8s.api.extensions.v1beta1.NetworkPolicyPeer"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ResourceSliceSpec.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"allNodes":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"devices":{"$ref":"T4fcch8uhSJhXRnxWxHz_wiQNfzDHUSMZyXbHpZHF-w"},"driver":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"nodeName":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"nodeSelector":{"$ref":"TkSNaYWIxhO85OVX_cSWzmQgv784eOxf9GMx98WTU1I"},"perDeviceNodeSelection":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"pool":{"$ref":"xgQQ7374hU4VefrN0zpAaubvFQGNdxbhCZKQO5s-exo"},"sharedCounters":{"$ref":"ZsZKDbSUIIHwEQAjOdkmT8mc3_YqxyMdSWZw_r02kOc"}},"required":["driver","pool"],"type":"object","$id":"io.k8s.api.resource.v1.ResourceSliceSpec"};

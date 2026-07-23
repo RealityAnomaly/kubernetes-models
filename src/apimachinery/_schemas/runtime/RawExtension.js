@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RawExtension.d.ts" */
 export const validate = validate0;
 const schema0 = {"type":"object","$id":"io.k8s.apimachinery.pkg.runtime.RawExtension"};

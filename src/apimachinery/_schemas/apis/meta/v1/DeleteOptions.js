@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeleteOptions.d.ts" */
 import { formats } from "@glassway/kubernetes-types/validate";
 export const validate = validate2;

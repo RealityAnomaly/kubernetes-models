@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./JSONSchemaPropsOrBool.d.ts" */
 export const validate = validate0;
 const schema0 = {"type":"object","$id":"io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.JSONSchemaPropsOrBool"};

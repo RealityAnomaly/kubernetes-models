@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./LimitRangeSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"limits":{"$ref":"VuUSM8IpaJTHvzZP5Tiz5d4OjMWLyZFSaT2NHUYlm5Q"}},"required":["limits"],"type":"object","$id":"io.k8s.api.core.v1.LimitRangeSpec"};

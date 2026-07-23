@@ -33,6 +33,7 @@ export class MutatingWebhookConfigurationList extends Model<IMutatingWebhookConf
 static apiVersion: IMutatingWebhookConfigurationList["apiVersion"] = "admissionregistration.k8s.io/v1beta1";
 static kind: IMutatingWebhookConfigurationList["kind"] = "MutatingWebhookConfigurationList";
 static is: TypeMetaGuard<IMutatingWebhookConfigurationList> = createTypeMetaGuard<IMutatingWebhookConfigurationList>(MutatingWebhookConfigurationList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IMutatingWebhookConfigurationList>) {
   super();

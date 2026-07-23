@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./IPBlock.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"cidr":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"except":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"}},"required":["cidr"],"type":"object","$id":"io.k8s.api.networking.v1.IPBlock"};

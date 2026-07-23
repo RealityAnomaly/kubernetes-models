@@ -33,6 +33,7 @@ export class HorizontalPodAutoscalerList extends Model<IHorizontalPodAutoscalerL
 static apiVersion: IHorizontalPodAutoscalerList["apiVersion"] = "autoscaling/v2";
 static kind: IHorizontalPodAutoscalerList["kind"] = "HorizontalPodAutoscalerList";
 static is: TypeMetaGuard<IHorizontalPodAutoscalerList> = createTypeMetaGuard<IHorizontalPodAutoscalerList>(HorizontalPodAutoscalerList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IHorizontalPodAutoscalerList>) {
   super();

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PersistentVolumeClaimTemplate.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"-kZPHicakElXkUAJY0zg7cdz6Ngs_TkNXIH793sde9o"}},"required":["spec"],"type":"object","$id":"io.k8s.api.core.v1.PersistentVolumeClaimTemplate"};

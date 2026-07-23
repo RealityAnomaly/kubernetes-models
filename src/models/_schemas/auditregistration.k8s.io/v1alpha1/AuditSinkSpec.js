@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./AuditSinkSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"policy":{"$ref":"yzvWmxPvB0tqV1y-5BJs6w4VdlcJOZdj7354I3Z34jA"},"webhook":{"$ref":"qEYtdgi9jKz2Aqk9fjEGNFS1_7hT7J3R0LOmxkpmODw"}},"required":["policy","webhook"],"type":"object","$id":"io.k8s.api.auditregistration.v1alpha1.AuditSinkSpec"};

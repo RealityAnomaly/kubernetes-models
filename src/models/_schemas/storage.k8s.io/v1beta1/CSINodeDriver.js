@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CSINodeDriver.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"allocatable":{"$ref":"-u9M8rc9fr1I3YXvz9-SM6qUZocEoKW0a13-jOVPL6s"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"nodeID":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"topologyKeys":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"}},"required":["name","nodeID"],"type":"object","$id":"io.k8s.api.storage.v1beta1.CSINodeDriver"};

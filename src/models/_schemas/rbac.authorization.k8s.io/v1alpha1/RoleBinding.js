@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RoleBinding.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"De87fb06yF1O97xgebZ6vmxJNCRPEZ95phqgm7gmOfs"},"kind":{"$ref":"wYF2QCT-9YRbMDuMZUNTiaeFtYwYkg9h3f0qaBuZTlw"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"roleRef":{"$ref":"MK63LIcJLIxt7Rcx-MPLmlUR6RA4Ge1KZOl3UCymA0A"},"subjects":{"$ref":"gZFqwguq1grvT_-_y2Fot_GWSqAzH_Jl7bZYxwkg8_I"}},"required":["roleRef","apiVersion","kind"],"type":"object","$id":"io.k8s.api.rbac.v1alpha1.RoleBinding"};

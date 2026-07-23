@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./LeaseList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"-DMf2etbTrFn4Ui-lOfxuFahBLwEDdN3ax5XTKtru70"},"items":{"$ref":"kxr7mM_LXZ15seH1qn671sHvVtTEtoVrYscBMfJob0w"},"kind":{"$ref":"XuFuYeBl39ab1LwWL8-htn6zwA1e57WWbcntWjQSLlw"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.coordination.v1.LeaseList"};

@@ -33,6 +33,7 @@ export class LeaseCandidateList extends Model<ILeaseCandidateList> implements IL
 static apiVersion: ILeaseCandidateList["apiVersion"] = "coordination.k8s.io/v1alpha2";
 static kind: ILeaseCandidateList["kind"] = "LeaseCandidateList";
 static is: TypeMetaGuard<ILeaseCandidateList> = createTypeMetaGuard<ILeaseCandidateList>(LeaseCandidateList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ILeaseCandidateList>) {
   super();

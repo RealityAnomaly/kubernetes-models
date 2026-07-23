@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./WindowsSecurityContextOptions.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"gmsaCredentialSpec":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"gmsaCredentialSpecName":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"hostProcess":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"runAsUserName":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.core.v1.WindowsSecurityContextOptions"};

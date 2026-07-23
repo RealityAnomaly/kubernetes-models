@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./OwnerReference.d.ts" */
 export const validate = validate2;
 const schema2 = {"properties":{"apiVersion":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"blockOwnerDeletion":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"controller":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"kind":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"uid":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["apiVersion","kind","name","uid"],"type":"object","$id":"io.k8s.apimachinery.pkg.apis.meta.v1.OwnerReference"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./MatchCondition.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"expression":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["name","expression"],"type":"object","$id":"io.k8s.api.admissionregistration.v1.MatchCondition"};

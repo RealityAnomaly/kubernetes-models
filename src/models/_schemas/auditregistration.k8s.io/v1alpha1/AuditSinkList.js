@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./AuditSinkList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"KKUVc08cEf5IhomO94XUOBMoEH-xrEj2wQ6O6w93owU"},"items":{"$ref":"mZCsN_I44mj8bwQz6ew4vI6QUDcW8kIsNE_hYRn27cA"},"kind":{"$ref":"tknVU40dwoTlW_hdPHqKUPKVCb5K_P-GiMPxYiwElTo"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.auditregistration.v1alpha1.AuditSinkList"};

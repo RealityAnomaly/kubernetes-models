@@ -33,6 +33,7 @@ export class StorageClassList extends Model<IStorageClassList> implements IStora
 static apiVersion: IStorageClassList["apiVersion"] = "storage.k8s.io/v1beta1";
 static kind: IStorageClassList["kind"] = "StorageClassList";
 static is: TypeMetaGuard<IStorageClassList> = createTypeMetaGuard<IStorageClassList>(StorageClassList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IStorageClassList>) {
   super();

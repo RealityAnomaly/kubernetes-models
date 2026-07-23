@@ -40,6 +40,7 @@ export class ControllerRevision extends Model<IControllerRevision> implements IC
 static apiVersion: IControllerRevision["apiVersion"] = "apps/v1beta1";
 static kind: IControllerRevision["kind"] = "ControllerRevision";
 static is: TypeMetaGuard<IControllerRevision> = createTypeMetaGuard<IControllerRevision>(ControllerRevision);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IControllerRevision>) {
   super();

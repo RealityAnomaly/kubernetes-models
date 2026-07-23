@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./LimitResponse.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"queuing":{"$ref":"6t9nlkq2vmnP89MHaYBngBOEOAhsYc2vlbktHClfcAM"},"type":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["type"],"type":"object","$id":"io.k8s.api.flowcontrol.v1beta2.LimitResponse"};

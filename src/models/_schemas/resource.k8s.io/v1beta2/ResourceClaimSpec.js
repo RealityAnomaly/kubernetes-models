@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ResourceClaimSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"devices":{"$ref":"YCZqyIaQrT85X3JyRXKAixjytJb9WV42RzNURuftjRM"}},"type":"object","$id":"io.k8s.api.resource.v1beta2.ResourceClaimSpec"};

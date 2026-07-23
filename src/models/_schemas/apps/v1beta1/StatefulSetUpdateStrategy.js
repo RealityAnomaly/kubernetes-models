@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./StatefulSetUpdateStrategy.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"rollingUpdate":{"$ref":"d8d7hxcqP-TGo64yF3clNEAW6qtjVvHpbMlKF_Gz6G4"},"type":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.apps.v1beta1.StatefulSetUpdateStrategy"};

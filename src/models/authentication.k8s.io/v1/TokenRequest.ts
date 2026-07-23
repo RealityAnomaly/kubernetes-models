@@ -39,6 +39,7 @@ export class TokenRequest extends Model<ITokenRequest> implements ITokenRequest 
 static apiVersion: ITokenRequest["apiVersion"] = "authentication.k8s.io/v1";
 static kind: ITokenRequest["kind"] = "TokenRequest";
 static is: TypeMetaGuard<ITokenRequest> = createTypeMetaGuard<ITokenRequest>(TokenRequest);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ITokenRequest>) {
   super();

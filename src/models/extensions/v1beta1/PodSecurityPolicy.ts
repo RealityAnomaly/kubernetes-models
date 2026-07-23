@@ -35,6 +35,7 @@ export class PodSecurityPolicy extends Model<IPodSecurityPolicy> implements IPod
 static apiVersion: IPodSecurityPolicy["apiVersion"] = "extensions/v1beta1";
 static kind: IPodSecurityPolicy["kind"] = "PodSecurityPolicy";
 static is: TypeMetaGuard<IPodSecurityPolicy> = createTypeMetaGuard<IPodSecurityPolicy>(PodSecurityPolicy);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodSecurityPolicy>) {
   super();

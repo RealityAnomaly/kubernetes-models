@@ -43,6 +43,7 @@ export class DeploymentRollback extends Model<IDeploymentRollback> implements ID
 static apiVersion: IDeploymentRollback["apiVersion"] = "apps/v1beta1";
 static kind: IDeploymentRollback["kind"] = "DeploymentRollback";
 static is: TypeMetaGuard<IDeploymentRollback> = createTypeMetaGuard<IDeploymentRollback>(DeploymentRollback);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IDeploymentRollback>) {
   super();

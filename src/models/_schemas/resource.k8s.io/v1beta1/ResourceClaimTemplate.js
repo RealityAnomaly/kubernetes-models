@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ResourceClaimTemplate.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"9xpwuzk0FXnCj2WbK3C2V1YOqTedwCA5Al0fu9oOYO4"},"kind":{"$ref":"U3yXXqonuCBv3AL5Xb3UXMsIaOd1V5l6D8sO3C2W9IQ"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"RQ8tBeQ1U0Z4HyzwP9ttvJt55aWSpVikE-hoBbft4Sk"}},"required":["spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.resource.v1beta1.ResourceClaimTemplate"};

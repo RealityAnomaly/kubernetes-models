@@ -39,6 +39,7 @@ export class FlowSchema extends Model<IFlowSchema> implements IFlowSchema {
 static apiVersion: IFlowSchema["apiVersion"] = "flowcontrol.apiserver.k8s.io/v1beta3";
 static kind: IFlowSchema["kind"] = "FlowSchema";
 static is: TypeMetaGuard<IFlowSchema> = createTypeMetaGuard<IFlowSchema>(FlowSchema);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IFlowSchema>) {
   super();

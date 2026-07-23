@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ExpressionWarning.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"fieldRef":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"warning":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["fieldRef","warning"],"type":"object","$id":"io.k8s.api.admissionregistration.v1.ExpressionWarning"};

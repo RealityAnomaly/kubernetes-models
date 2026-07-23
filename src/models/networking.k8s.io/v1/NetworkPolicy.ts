@@ -33,6 +33,7 @@ export class NetworkPolicy extends Model<INetworkPolicy> implements INetworkPoli
 static apiVersion: INetworkPolicy["apiVersion"] = "networking.k8s.io/v1";
 static kind: INetworkPolicy["kind"] = "NetworkPolicy";
 static is: TypeMetaGuard<INetworkPolicy> = createTypeMetaGuard<INetworkPolicy>(NetworkPolicy);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<INetworkPolicy>) {
   super();

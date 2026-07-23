@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CustomResourceSubresources.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"scale":{"$ref":"T4elBG_-Q_sxjmmyjDiQ9itqa3RNt-78z7snyk5_Bi8"},"status":{"$ref":"eCJBpQYn3ST7SSEahQN7FoQieCXAM4wU0edtTTF5nJo"}},"type":"object","$id":"io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceSubresources"};

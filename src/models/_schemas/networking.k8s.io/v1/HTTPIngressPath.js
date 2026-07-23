@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./HTTPIngressPath.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"backend":{"$ref":"08fV2SBvOgb0IhCsarVtMvn3dxaEU-r7NaVe2ELs5fw"},"path":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"pathType":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["pathType","backend"],"type":"object","$id":"io.k8s.api.networking.v1.HTTPIngressPath"};

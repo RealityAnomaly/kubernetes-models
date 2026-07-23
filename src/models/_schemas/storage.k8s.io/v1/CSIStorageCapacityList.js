@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CSIStorageCapacityList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"3Lnz3hDGoV6LS117nicS3YoTy1WU2EUGx89iY2NJZb4"},"items":{"$ref":"EeTNU6qFYe36Fm17zZp2R_IcUIMkTgNtV0aZcJyi3Ik"},"kind":{"$ref":"VUYCBBjtOuLUpJr171GSFpyPB-Wr1gwnMGUU22hpeIo"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.storage.v1.CSIStorageCapacityList"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeSelectorTerm.d.ts" */
 export const validate = validate5;
 const schema3 = {"properties":{"matchExpressions":{"$ref":"U7REhJyhEvoBy9K0RHHWzNrW7_2WaGTDP_RFw0DZCNw"},"matchFields":{"$ref":"U7REhJyhEvoBy9K0RHHWzNrW7_2WaGTDP_RFw0DZCNw"}},"type":"object","$id":"io.k8s.api.core.v1.NodeSelectorTerm"};

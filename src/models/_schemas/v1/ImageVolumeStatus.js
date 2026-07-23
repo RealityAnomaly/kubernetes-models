@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ImageVolumeStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"imageRef":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["imageRef"],"type":"object","$id":"io.k8s.api.core.v1.ImageVolumeStatus"};

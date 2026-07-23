@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./FlowSchemaStatus.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"conditions":{"$ref":"WmojY7XADMi68seRW90xGX6KIyVge-nbfcmOXVPjkRU"}},"type":"object","$id":"io.k8s.api.flowcontrol.v1beta2.FlowSchemaStatus"};

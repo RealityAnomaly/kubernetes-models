@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./WorkloadSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"controllerRef":{"$ref":"x2040rIyfXmfnhA8M8OWPMoZ2e85wsQEnR3lGzzX_Ro"},"podGroupTemplates":{"$ref":"qom1DTXPttFsOu42MKNC2P4YRXDzfg5_keTks4Hnong"}},"required":["podGroupTemplates"],"type":"object","$id":"io.k8s.api.scheduling.v1alpha2.WorkloadSpec"};

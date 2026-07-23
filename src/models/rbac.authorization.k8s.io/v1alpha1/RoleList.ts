@@ -35,6 +35,7 @@ export class RoleList extends Model<IRoleList> implements IRoleList {
 static apiVersion: IRoleList["apiVersion"] = "rbac.authorization.k8s.io/v1alpha1";
 static kind: IRoleList["kind"] = "RoleList";
 static is: TypeMetaGuard<IRoleList> = createTypeMetaGuard<IRoleList>(RoleList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IRoleList>) {
   super();

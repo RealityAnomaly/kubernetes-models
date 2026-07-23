@@ -35,6 +35,7 @@ export class CSINode extends Model<ICSINode> implements ICSINode {
 static apiVersion: ICSINode["apiVersion"] = "storage.k8s.io/v1beta1";
 static kind: ICSINode["kind"] = "CSINode";
 static is: TypeMetaGuard<ICSINode> = createTypeMetaGuard<ICSINode>(CSINode);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ICSINode>) {
   super();

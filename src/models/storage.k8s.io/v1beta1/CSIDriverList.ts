@@ -33,6 +33,7 @@ export class CSIDriverList extends Model<ICSIDriverList> implements ICSIDriverLi
 static apiVersion: ICSIDriverList["apiVersion"] = "storage.k8s.io/v1beta1";
 static kind: ICSIDriverList["kind"] = "CSIDriverList";
 static is: TypeMetaGuard<ICSIDriverList> = createTypeMetaGuard<ICSIDriverList>(CSIDriverList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ICSIDriverList>) {
   super();

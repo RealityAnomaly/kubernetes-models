@@ -39,6 +39,7 @@ export class SelfSubjectRulesReview extends Model<ISelfSubjectRulesReview> imple
 static apiVersion: ISelfSubjectRulesReview["apiVersion"] = "authorization.k8s.io/v1";
 static kind: ISelfSubjectRulesReview["kind"] = "SelfSubjectRulesReview";
 static is: TypeMetaGuard<ISelfSubjectRulesReview> = createTypeMetaGuard<ISelfSubjectRulesReview>(SelfSubjectRulesReview);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ISelfSubjectRulesReview>) {
   super();

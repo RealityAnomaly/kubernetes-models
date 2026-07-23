@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ContainerResourceMetricStatus.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"container":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"current":{"$ref":"Sd-dcUbA0TL7oZp5fmtDBLHIG0jkAJjU29O4p-Jjvq4"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["name","current","container"],"type":"object","$id":"io.k8s.api.autoscaling.v2.ContainerResourceMetricStatus"};

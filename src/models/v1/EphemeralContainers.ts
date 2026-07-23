@@ -30,6 +30,7 @@ export class EphemeralContainers extends Model<IEphemeralContainers> implements 
 static apiVersion: IEphemeralContainers["apiVersion"] = "v1";
 static kind: IEphemeralContainers["kind"] = "EphemeralContainers";
 static is: TypeMetaGuard<IEphemeralContainers> = createTypeMetaGuard<IEphemeralContainers>(EphemeralContainers);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IEphemeralContainers>) {
   super();

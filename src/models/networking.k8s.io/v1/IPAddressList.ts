@@ -33,6 +33,7 @@ export class IPAddressList extends Model<IIPAddressList> implements IIPAddressLi
 static apiVersion: IIPAddressList["apiVersion"] = "networking.k8s.io/v1";
 static kind: IIPAddressList["kind"] = "IPAddressList";
 static is: TypeMetaGuard<IIPAddressList> = createTypeMetaGuard<IIPAddressList>(IPAddressList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IIPAddressList>) {
   super();

@@ -33,6 +33,7 @@ export class ReplicaSetList extends Model<IReplicaSetList> implements IReplicaSe
 static apiVersion: IReplicaSetList["apiVersion"] = "apps/v1";
 static kind: IReplicaSetList["kind"] = "ReplicaSetList";
 static is: TypeMetaGuard<IReplicaSetList> = createTypeMetaGuard<IReplicaSetList>(ReplicaSetList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IReplicaSetList>) {
   super();

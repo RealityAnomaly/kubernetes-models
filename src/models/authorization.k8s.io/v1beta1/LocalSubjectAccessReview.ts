@@ -36,6 +36,7 @@ export class LocalSubjectAccessReview extends Model<ILocalSubjectAccessReview> i
 static apiVersion: ILocalSubjectAccessReview["apiVersion"] = "authorization.k8s.io/v1beta1";
 static kind: ILocalSubjectAccessReview["kind"] = "LocalSubjectAccessReview";
 static is: TypeMetaGuard<ILocalSubjectAccessReview> = createTypeMetaGuard<ILocalSubjectAccessReview>(LocalSubjectAccessReview);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ILocalSubjectAccessReview>) {
   super();

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeAllocatableResourceMapping.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"allocationMultiplier":{"$ref":"pp_xaFlNXkKoD6DTqyaUAeP7lGItJ9_hKwPxmHYeCNA"},"capacityKey":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.resource.v1beta1.NodeAllocatableResourceMapping"};

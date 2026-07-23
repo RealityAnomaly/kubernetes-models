@@ -33,6 +33,7 @@ export class NamespaceList extends Model<INamespaceList> implements INamespaceLi
 static apiVersion: INamespaceList["apiVersion"] = "v1";
 static kind: INamespaceList["kind"] = "NamespaceList";
 static is: TypeMetaGuard<INamespaceList> = createTypeMetaGuard<INamespaceList>(NamespaceList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<INamespaceList>) {
   super();

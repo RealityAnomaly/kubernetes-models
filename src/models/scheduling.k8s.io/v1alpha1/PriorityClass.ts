@@ -49,6 +49,7 @@ export class PriorityClass extends Model<IPriorityClass> implements IPriorityCla
 static apiVersion: IPriorityClass["apiVersion"] = "scheduling.k8s.io/v1alpha1";
 static kind: IPriorityClass["kind"] = "PriorityClass";
 static is: TypeMetaGuard<IPriorityClass> = createTypeMetaGuard<IPriorityClass>(PriorityClass);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPriorityClass>) {
   super();

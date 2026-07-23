@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeviceClaim.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"config":{"$ref":"7CggSTlRk_rVg5Yhl3s17A46jTGCcZFiizOv7uecxds"},"constraints":{"$ref":"NcVP1DcDuk-4zSNVSJnqY-2cUbNO074qQoPEN9IYiWE"},"requests":{"$ref":"0zaM3-f60ByNp25vqJeCtGk8HpI9nqyAggpEGFEd3Vc"}},"type":"object","$id":"io.k8s.api.resource.v1alpha3.DeviceClaim"};

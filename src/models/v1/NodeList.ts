@@ -33,6 +33,7 @@ export class NodeList extends Model<INodeList> implements INodeList {
 static apiVersion: INodeList["apiVersion"] = "v1";
 static kind: INodeList["kind"] = "NodeList";
 static is: TypeMetaGuard<INodeList> = createTypeMetaGuard<INodeList>(NodeList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<INodeList>) {
   super();

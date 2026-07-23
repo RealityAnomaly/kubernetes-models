@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodReadinessGate.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"conditionType":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["conditionType"],"type":"object","$id":"io.k8s.api.core.v1.PodReadinessGate"};

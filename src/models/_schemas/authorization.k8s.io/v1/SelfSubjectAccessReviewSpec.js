@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./SelfSubjectAccessReviewSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"nonResourceAttributes":{"$ref":"GNjm9MTw7kU2Tem12W7ISFV1QklmzRlwv2StLDqRTM4"},"resourceAttributes":{"$ref":"fZ8vizP_MjwB__cpgB7W0YtSupTRCRlJVlZro9jxb6A"}},"type":"object","$id":"io.k8s.api.authorization.v1.SelfSubjectAccessReviewSpec"};

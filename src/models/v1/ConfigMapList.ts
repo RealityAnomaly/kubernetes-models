@@ -33,6 +33,7 @@ export class ConfigMapList extends Model<IConfigMapList> implements IConfigMapLi
 static apiVersion: IConfigMapList["apiVersion"] = "v1";
 static kind: IConfigMapList["kind"] = "ConfigMapList";
 static is: TypeMetaGuard<IConfigMapList> = createTypeMetaGuard<IConfigMapList>(ConfigMapList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IConfigMapList>) {
   super();

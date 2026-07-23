@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeAddress.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"address":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"type":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["type","address"],"type":"object","$id":"io.k8s.api.core.v1.NodeAddress"};

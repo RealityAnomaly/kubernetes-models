@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./LabelSelector.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"matchExpressions":{"$ref":"Sq5uNRMundU4aMwOfgz0VhZ5rUzwCqE3gyQS1yE-TDo"},"matchLabels":{"$ref":"Ul_dhUdbb_DarDhfw0mKkpjzZdc0vNqkGhUAaKt2b7M"}},"type":"object","$id":"io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector"};

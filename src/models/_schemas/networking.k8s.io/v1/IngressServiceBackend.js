@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./IngressServiceBackend.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"port":{"$ref":"ZUA4KoLXLKoTnV35U_4yq6z_jQ6ujjWCyVVrwVQdNNo"}},"required":["name"],"type":"object","$id":"io.k8s.api.networking.v1.IngressServiceBackend"};

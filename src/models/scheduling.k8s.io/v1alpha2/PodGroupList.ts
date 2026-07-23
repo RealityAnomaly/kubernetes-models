@@ -33,6 +33,7 @@ export class PodGroupList extends Model<IPodGroupList> implements IPodGroupList 
 static apiVersion: IPodGroupList["apiVersion"] = "scheduling.k8s.io/v1alpha2";
 static kind: IPodGroupList["kind"] = "PodGroupList";
 static is: TypeMetaGuard<IPodGroupList> = createTypeMetaGuard<IPodGroupList>(PodGroupList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodGroupList>) {
   super();

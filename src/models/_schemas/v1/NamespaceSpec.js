@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NamespaceSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"finalizers":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"}},"type":"object","$id":"io.k8s.api.core.v1.NamespaceSpec"};

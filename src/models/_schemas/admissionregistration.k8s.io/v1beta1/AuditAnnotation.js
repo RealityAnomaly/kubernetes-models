@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./AuditAnnotation.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"key":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"valueExpression":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["key","valueExpression"],"type":"object","$id":"io.k8s.api.admissionregistration.v1beta1.AuditAnnotation"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./UserInfo.d.ts" */
 export const validate = validate2;
 const schema2 = {"properties":{"extra":{"$ref":"cbHjaL27bsYoB-250qBeBZFfFlksf9O0Kclh9RM5vSg"},"groups":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"},"uid":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"username":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.authentication.v1beta1.UserInfo"};

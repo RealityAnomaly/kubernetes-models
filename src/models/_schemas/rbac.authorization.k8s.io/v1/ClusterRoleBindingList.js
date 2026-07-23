@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ClusterRoleBindingList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"WcwYpFackugTb3qkllsMerGdSg9RV7slBmfbySA2Mk4"},"items":{"$ref":"miNPQus2EiSad9xBoyTHcLtbTOSULOOeO4lGW1VgQ9E"},"kind":{"$ref":"84nsQthInRF5rkqBuWsPpLcjWIrqBGejE1pM3M_JkZE"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.rbac.v1.ClusterRoleBindingList"};

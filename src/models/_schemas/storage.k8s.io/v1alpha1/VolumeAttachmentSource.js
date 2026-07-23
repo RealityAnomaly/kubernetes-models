@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./VolumeAttachmentSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"inlineVolumeSpec":{"$ref":"o47ia-wtw8V19k9Y2u_6BYQqQ78I2WMNWJaM9ZmdrGI"},"persistentVolumeName":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"}},"type":"object","$id":"io.k8s.api.storage.v1alpha1.VolumeAttachmentSource"};

@@ -35,6 +35,7 @@ export class NetworkPolicyList extends Model<INetworkPolicyList> implements INet
 static apiVersion: INetworkPolicyList["apiVersion"] = "extensions/v1beta1";
 static kind: INetworkPolicyList["kind"] = "NetworkPolicyList";
 static is: TypeMetaGuard<INetworkPolicyList> = createTypeMetaGuard<INetworkPolicyList>(NetworkPolicyList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<INetworkPolicyList>) {
   super();

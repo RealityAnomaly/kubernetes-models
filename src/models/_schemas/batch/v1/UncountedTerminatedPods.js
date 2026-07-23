@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./UncountedTerminatedPods.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"failed":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"},"succeeded":{"$ref":"uqi-NWpwJAtCtKg340P2GU85hOwdccNKh8Eansj5IGE"}},"type":"object","$id":"io.k8s.api.batch.v1.UncountedTerminatedPods"};

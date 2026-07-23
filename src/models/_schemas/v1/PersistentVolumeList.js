@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PersistentVolumeList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"_-ZvS-rLxHiNEArQOhevVo83klxV-qnul8X_v4BZ4M4"},"items":{"$ref":"FJeBBlNPUfE1xcmZTvRzWvpwBfQDmfNlSULTU-zRVXw"},"kind":{"$ref":"CEWAdZsmBQdoDJXUSjH-eS_ZCHUdJgmpsngpkBHcFZ4"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.core.v1.PersistentVolumeList"};

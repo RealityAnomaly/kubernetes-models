@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Scale.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"8cXhp6wR3PipQt0yl6p2rD33kXsWNatusZTuOn43xo4"},"kind":{"$ref":"le0TeL8UrjqhxeMR_MNM4DpQMFgQCtj-jSqubpcDHsw"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"jCNVnRqwXMh5d-PsutxMNnMYa1zbyW-HQ4Se9aAKcYg"},"status":{"$ref":"C2t560FSc_1YCmySBVCEGerjPGSPjE6WKtP4_FEow_s"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.apps.v1beta1.Scale"};

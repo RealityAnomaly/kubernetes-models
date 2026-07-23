@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ReplicaSet.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"7jsfkhcEDyoudlBfDD9y8QHrxewtIHKzZK30E_TSwdk"},"kind":{"$ref":"SVoKHjRckHCUboDv3OeN9mW5U39F_OkRSP2GGEua6HU"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"E6URh8FqZdlkRxpRLTQ_IMDMcttBjwq4UN8nT5-YB9U"},"status":{"$ref":"Ei-Gg-rtYlJrpbudn1MaQy7bZYTj85pdiRfwULe9l9Y"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.extensions.v1beta1.ReplicaSet"};

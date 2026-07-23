@@ -39,6 +39,7 @@ export class ResourceClaim extends Model<IResourceClaim> implements IResourceCla
 static apiVersion: IResourceClaim["apiVersion"] = "resource.k8s.io/v1";
 static kind: IResourceClaim["kind"] = "ResourceClaim";
 static is: TypeMetaGuard<IResourceClaim> = createTypeMetaGuard<IResourceClaim>(ResourceClaim);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IResourceClaim>) {
   super();

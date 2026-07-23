@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RoleRef.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"apiGroup":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"kind":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["apiGroup","kind","name"],"type":"object","$id":"io.k8s.api.rbac.v1alpha1.RoleRef"};

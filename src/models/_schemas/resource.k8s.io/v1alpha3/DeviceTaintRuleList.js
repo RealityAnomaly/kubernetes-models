@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeviceTaintRuleList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"JhWvHbSFO3ELsap4IWTkIXEjLRfpdwhmVqXnItVBFvQ"},"items":{"$ref":"DM-MZtz65_Bhm6MGhFNUuBOIDH3QJbqcvXPLC1s2NP8"},"kind":{"$ref":"KBXrqlJN5iMfw4UcSEX45j1Tt7PH1K-xLIHPRGbS0sI"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.resource.v1alpha3.DeviceTaintRuleList"};

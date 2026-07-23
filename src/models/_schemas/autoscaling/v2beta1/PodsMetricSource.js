@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodsMetricSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"metricName":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"selector":{"$ref":"ft7HGURTbPyh-vhzFAYgnhVehb5DIkOC1Qu-kP-9F84"},"targetAverageValue":{"$ref":"VKZPUldlWDa056CXEqKHCNMaIxOA7qIsmePtey64Cuk"}},"required":["metricName","targetAverageValue"],"type":"object","$id":"io.k8s.api.autoscaling.v2beta1.PodsMetricSource"};

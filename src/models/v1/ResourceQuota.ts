@@ -39,6 +39,7 @@ export class ResourceQuota extends Model<IResourceQuota> implements IResourceQuo
 static apiVersion: IResourceQuota["apiVersion"] = "v1";
 static kind: IResourceQuota["kind"] = "ResourceQuota";
 static is: TypeMetaGuard<IResourceQuota> = createTypeMetaGuard<IResourceQuota>(ResourceQuota);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IResourceQuota>) {
   super();

@@ -33,6 +33,7 @@ export class ResourceQuotaList extends Model<IResourceQuotaList> implements IRes
 static apiVersion: IResourceQuotaList["apiVersion"] = "v1";
 static kind: IResourceQuotaList["kind"] = "ResourceQuotaList";
 static is: TypeMetaGuard<IResourceQuotaList> = createTypeMetaGuard<IResourceQuotaList>(ResourceQuotaList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IResourceQuotaList>) {
   super();

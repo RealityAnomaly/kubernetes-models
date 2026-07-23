@@ -33,6 +33,7 @@ export class PodTemplateList extends Model<IPodTemplateList> implements IPodTemp
 static apiVersion: IPodTemplateList["apiVersion"] = "v1";
 static kind: IPodTemplateList["kind"] = "PodTemplateList";
 static is: TypeMetaGuard<IPodTemplateList> = createTypeMetaGuard<IPodTemplateList>(PodTemplateList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodTemplateList>) {
   super();

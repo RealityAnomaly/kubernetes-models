@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./LimitRangeList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"_-ZvS-rLxHiNEArQOhevVo83klxV-qnul8X_v4BZ4M4"},"items":{"$ref":"OfkDwZRDeizO0NtPxz7AzAKUt6s0veV-rRAVCPYYG3E"},"kind":{"$ref":"nAJbzTpT0Hwv_Y2EjlXQ4rOHruJaMVGbp3gUl4r92wU"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.core.v1.LimitRangeList"};

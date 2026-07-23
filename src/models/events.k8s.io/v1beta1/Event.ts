@@ -102,6 +102,7 @@ export class Event extends Model<IEvent> implements IEvent {
 static apiVersion: IEvent["apiVersion"] = "events.k8s.io/v1beta1";
 static kind: IEvent["kind"] = "Event";
 static is: TypeMetaGuard<IEvent> = createTypeMetaGuard<IEvent>(Event);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IEvent>) {
   super();

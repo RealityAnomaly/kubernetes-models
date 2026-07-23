@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Eviction.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"b92H8BVeVpZpHNCYU8cOc8y08Qv4UCxDyqytMuI0gCw"},"deleteOptions":{"$ref":"3vZ-sKVL9MLIxCAH9kl1DzADih0e6Y4IV05bqhD88C8"},"kind":{"$ref":"TCUo9aTdmabJ8gX8TMLnS8r7rpdpJeas_ricvb_KRQs"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.policy.v1beta1.Eviction"};

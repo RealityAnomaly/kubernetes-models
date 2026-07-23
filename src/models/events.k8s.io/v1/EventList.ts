@@ -33,6 +33,7 @@ export class EventList extends Model<IEventList> implements IEventList {
 static apiVersion: IEventList["apiVersion"] = "events.k8s.io/v1";
 static kind: IEventList["kind"] = "EventList";
 static is: TypeMetaGuard<IEventList> = createTypeMetaGuard<IEventList>(EventList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IEventList>) {
   super();

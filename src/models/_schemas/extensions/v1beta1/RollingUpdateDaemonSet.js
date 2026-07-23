@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./RollingUpdateDaemonSet.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"maxUnavailable":{"$ref":"0Ic74D7DBbilZPLlK8sD9BMBs_dQWTMr2-XowApJQb0"}},"type":"object","$id":"io.k8s.api.extensions.v1beta1.RollingUpdateDaemonSet"};

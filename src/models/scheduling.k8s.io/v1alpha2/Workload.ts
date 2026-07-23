@@ -33,6 +33,7 @@ export class Workload extends Model<IWorkload> implements IWorkload {
 static apiVersion: IWorkload["apiVersion"] = "scheduling.k8s.io/v1alpha2";
 static kind: IWorkload["kind"] = "Workload";
 static is: TypeMetaGuard<IWorkload> = createTypeMetaGuard<IWorkload>(Workload);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IWorkload>) {
   super();

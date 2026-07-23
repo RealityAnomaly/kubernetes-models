@@ -39,6 +39,7 @@ export class ServiceCIDR extends Model<IServiceCIDR> implements IServiceCIDR {
 static apiVersion: IServiceCIDR["apiVersion"] = "networking.k8s.io/v1";
 static kind: IServiceCIDR["kind"] = "ServiceCIDR";
 static is: TypeMetaGuard<IServiceCIDR> = createTypeMetaGuard<IServiceCIDR>(ServiceCIDR);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IServiceCIDR>) {
   super();

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./VolumeProjection.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"clusterTrustBundle":{"$ref":"tALyu1cRZcSjUioJWX5m92Oor8WUNBdBn9X20zezLC0"},"configMap":{"$ref":"4g9oM9otGa5L40FuZhb209gKYOFvw8WF414wyhcbn-Y"},"downwardAPI":{"$ref":"Atlcf_zqCM4svnsaX6oRTJOo0-ZZWuHD9QwJbU86H2s"},"podCertificate":{"$ref":"PGwGvhvyPEzSlP1mVR3QNapkvc6Ah45WBDPoih74Tok"},"secret":{"$ref":"tDoZl-P0DWjXkQ9LeSms8dc7Bso6xKbegOuDMd2POo4"},"serviceAccountToken":{"$ref":"bjiBlNcNoxTC2EQAzQYZkl-npSI0FTcq7upI9pBryAg"}},"type":"object","$id":"io.k8s.api.core.v1.VolumeProjection"};

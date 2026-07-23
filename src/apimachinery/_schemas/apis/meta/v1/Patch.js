@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Patch.d.ts" */
 export const validate = validate0;
 const schema0 = {"type":"object","$id":"io.k8s.apimachinery.pkg.apis.meta.v1.Patch"};

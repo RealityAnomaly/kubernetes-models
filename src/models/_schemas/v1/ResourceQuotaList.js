@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ResourceQuotaList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"_-ZvS-rLxHiNEArQOhevVo83klxV-qnul8X_v4BZ4M4"},"items":{"$ref":"RkwE4elDWp4z_xDV64j61iFzs-7j6LG2AdJV397FsVE"},"kind":{"$ref":"0VKGVEC6eXJJhCuXe1wQFPVCeEdUN-_e-vFKnLxVvX8"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.core.v1.ResourceQuotaList"};

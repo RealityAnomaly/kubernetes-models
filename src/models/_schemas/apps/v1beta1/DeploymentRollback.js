@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeploymentRollback.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"apiVersion":{"$ref":"8cXhp6wR3PipQt0yl6p2rD33kXsWNatusZTuOn43xo4"},"kind":{"$ref":"lQ6Z9uCzTEQkD5PYJlopG2uPN5FoPv5soccNUUcytmg"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"rollbackTo":{"$ref":"wRCneO-sWvsxtFFhUnDtrKOBhwvDYfJ0f3Firsylb20"},"updatedAnnotations":{"$ref":"Ul_dhUdbb_DarDhfw0mKkpjzZdc0vNqkGhUAaKt2b7M"}},"required":["name","rollbackTo","apiVersion","kind"],"type":"object","$id":"io.k8s.api.apps.v1beta1.DeploymentRollback"};

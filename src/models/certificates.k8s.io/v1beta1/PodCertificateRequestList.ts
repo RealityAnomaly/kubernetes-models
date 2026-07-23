@@ -33,6 +33,7 @@ export class PodCertificateRequestList extends Model<IPodCertificateRequestList>
 static apiVersion: IPodCertificateRequestList["apiVersion"] = "certificates.k8s.io/v1beta1";
 static kind: IPodCertificateRequestList["kind"] = "PodCertificateRequestList";
 static is: TypeMetaGuard<IPodCertificateRequestList> = createTypeMetaGuard<IPodCertificateRequestList>(PodCertificateRequestList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodCertificateRequestList>) {
   super();

@@ -33,6 +33,7 @@ export class CSINodeList extends Model<ICSINodeList> implements ICSINodeList {
 static apiVersion: ICSINodeList["apiVersion"] = "storage.k8s.io/v1";
 static kind: ICSINodeList["kind"] = "CSINodeList";
 static is: TypeMetaGuard<ICSINodeList> = createTypeMetaGuard<ICSINodeList>(CSINodeList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ICSINodeList>) {
   super();

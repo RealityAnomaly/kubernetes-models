@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeviceClassConfiguration.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"opaque":{"$ref":"bO9fHkSSgMpLCOucJkQYx48JxvOCplTsS9-91h431hc"}},"type":"object","$id":"io.k8s.api.resource.v1alpha3.DeviceClassConfiguration"};

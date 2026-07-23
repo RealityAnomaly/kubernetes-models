@@ -39,6 +39,7 @@ export class PersistentVolumeClaim extends Model<IPersistentVolumeClaim> impleme
 static apiVersion: IPersistentVolumeClaim["apiVersion"] = "v1";
 static kind: IPersistentVolumeClaim["kind"] = "PersistentVolumeClaim";
 static is: TypeMetaGuard<IPersistentVolumeClaim> = createTypeMetaGuard<IPersistentVolumeClaim>(PersistentVolumeClaim);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPersistentVolumeClaim>) {
   super();

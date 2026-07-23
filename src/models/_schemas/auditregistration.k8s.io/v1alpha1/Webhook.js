@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Webhook.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"clientConfig":{"$ref":"C0Igc2EXmkMzYvSX2KMedJ165mlgcxxWnxYa-GKacZA"},"throttle":{"$ref":"SlIPGf5hjHsLRf9e9ZPZZU3Wword6SbYtaCFPkopWS0"}},"required":["clientConfig"],"type":"object","$id":"io.k8s.api.auditregistration.v1alpha1.Webhook"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ContainerUser.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"linux":{"$ref":"USK21DKT0wE1rxXlekTZOQCPkRd4LTCep7UTX_u9lpE"}},"type":"object","$id":"io.k8s.api.core.v1.ContainerUser"};

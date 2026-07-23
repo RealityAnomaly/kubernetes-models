@@ -33,6 +33,7 @@ export class PodSchedulingList extends Model<IPodSchedulingList> implements IPod
 static apiVersion: IPodSchedulingList["apiVersion"] = "resource.k8s.io/v1alpha1";
 static kind: IPodSchedulingList["kind"] = "PodSchedulingList";
 static is: TypeMetaGuard<IPodSchedulingList> = createTypeMetaGuard<IPodSchedulingList>(PodSchedulingList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodSchedulingList>) {
   super();

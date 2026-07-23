@@ -33,6 +33,7 @@ export class VolumeAttributesClassList extends Model<IVolumeAttributesClassList>
 static apiVersion: IVolumeAttributesClassList["apiVersion"] = "storage.k8s.io/v1beta1";
 static kind: IVolumeAttributesClassList["kind"] = "VolumeAttributesClassList";
 static is: TypeMetaGuard<IVolumeAttributesClassList> = createTypeMetaGuard<IVolumeAttributesClassList>(VolumeAttributesClassList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IVolumeAttributesClassList>) {
   super();

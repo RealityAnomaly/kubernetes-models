@@ -33,6 +33,7 @@ export class DeviceTaintRuleList extends Model<IDeviceTaintRuleList> implements 
 static apiVersion: IDeviceTaintRuleList["apiVersion"] = "resource.k8s.io/v1beta2";
 static kind: IDeviceTaintRuleList["kind"] = "DeviceTaintRuleList";
 static is: TypeMetaGuard<IDeviceTaintRuleList> = createTypeMetaGuard<IDeviceTaintRuleList>(DeviceTaintRuleList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IDeviceTaintRuleList>) {
   super();

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CapacityRequestPolicyRange.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"max":{"$ref":"pp_xaFlNXkKoD6DTqyaUAeP7lGItJ9_hKwPxmHYeCNA"},"min":{"$ref":"VKZPUldlWDa056CXEqKHCNMaIxOA7qIsmePtey64Cuk"},"step":{"$ref":"pp_xaFlNXkKoD6DTqyaUAeP7lGItJ9_hKwPxmHYeCNA"}},"required":["min"],"type":"object","$id":"io.k8s.api.resource.v1beta1.CapacityRequestPolicyRange"};

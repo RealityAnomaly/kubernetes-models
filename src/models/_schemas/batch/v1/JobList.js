@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./JobList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"FgIYb3fE7bKYdUE9nA-p-zAk13Ajzu9FvWgcmKhMCK8"},"items":{"$ref":"3zFloIcfLqZz5N8BEA2I3JkET3LaH7Mr9PlsOtbjtYc"},"kind":{"$ref":"IeDX_Zt_jN5yYR7Bl3pDFvjmE8s1zuO4CpFcDREXOM8"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.batch.v1.JobList"};

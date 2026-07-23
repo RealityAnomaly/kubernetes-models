@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./DeviceSelector.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"cel":{"$ref":"g77hxiH7NeixCiHnIkrNxuj0o37cT-Mk48NxDdCJ6co"}},"type":"object","$id":"io.k8s.api.resource.v1beta1.DeviceSelector"};

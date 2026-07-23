@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ScopeSelector.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"matchExpressions":{"$ref":"QpxY6x9IDMWjgBtzuDxkYsCcT1BhJoQsvL40NcpiXm4"}},"type":"object","$id":"io.k8s.api.core.v1.ScopeSelector"};

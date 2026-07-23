@@ -33,6 +33,7 @@ export class DeviceClassList extends Model<IDeviceClassList> implements IDeviceC
 static apiVersion: IDeviceClassList["apiVersion"] = "resource.k8s.io/v1beta1";
 static kind: IDeviceClassList["kind"] = "DeviceClassList";
 static is: TypeMetaGuard<IDeviceClassList> = createTypeMetaGuard<IDeviceClassList>(DeviceClassList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IDeviceClassList>) {
   super();

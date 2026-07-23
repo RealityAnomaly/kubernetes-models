@@ -39,6 +39,7 @@ export class ReplicationController extends Model<IReplicationController> impleme
 static apiVersion: IReplicationController["apiVersion"] = "v1";
 static kind: IReplicationController["kind"] = "ReplicationController";
 static is: TypeMetaGuard<IReplicationController> = createTypeMetaGuard<IReplicationController>(ReplicationController);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IReplicationController>) {
   super();

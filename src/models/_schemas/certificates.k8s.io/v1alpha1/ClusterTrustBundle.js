@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ClusterTrustBundle.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"n3xtg1T9jN8N1pU9IaLp10RjIaf4oN87ggWC-Ea_RAQ"},"kind":{"$ref":"v_rtHKKSpEe3mDF-NXjTAHKgQEyVNGca0JuK9ZTlpBY"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"BYldVFCpJHpJBOQ0DQZirdMIS-tSQhYH5H1RpJk8f-k"}},"required":["spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.certificates.v1alpha1.ClusterTrustBundle"};

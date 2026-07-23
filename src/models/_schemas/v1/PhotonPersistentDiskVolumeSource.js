@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PhotonPersistentDiskVolumeSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"fsType":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"pdID":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["pdID"],"type":"object","$id":"io.k8s.api.core.v1.PhotonPersistentDiskVolumeSource"};

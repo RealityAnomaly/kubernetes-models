@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./EnvVar.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"value":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"valueFrom":{"$ref":"vEi7UQRV4It3aBZLij8r7lbRpTGme4jZ2JlNgdP2hQ0"}},"required":["name"],"type":"object","$id":"io.k8s.api.core.v1.EnvVar"};

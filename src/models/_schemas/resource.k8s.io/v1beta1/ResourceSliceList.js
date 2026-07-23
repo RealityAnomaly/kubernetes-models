@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ResourceSliceList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"9xpwuzk0FXnCj2WbK3C2V1YOqTedwCA5Al0fu9oOYO4"},"items":{"$ref":"oiB4x5tAgHQxKlEnQ_EWgHV17x67xHfNOkDyxBTBxNI"},"kind":{"$ref":"bz3088w8nibf_aWvE8rd5J4Y5I3yzd23azDFJZTajx8"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.resource.v1beta1.ResourceSliceList"};

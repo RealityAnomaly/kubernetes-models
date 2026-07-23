@@ -27,6 +27,7 @@ export class StatefulSetList extends Model<IStatefulSetList> implements IStatefu
 static apiVersion: IStatefulSetList["apiVersion"] = "apps/v1beta1";
 static kind: IStatefulSetList["kind"] = "StatefulSetList";
 static is: TypeMetaGuard<IStatefulSetList> = createTypeMetaGuard<IStatefulSetList>(StatefulSetList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IStatefulSetList>) {
   super();

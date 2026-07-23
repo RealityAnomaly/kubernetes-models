@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./LoadBalancerIngress.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"hostname":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"ip":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"ipMode":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"ports":{"$ref":"_6NN1C-B-iKSCfIC6jUH6C9DFnEW5828T8usAQjbvEc"}},"type":"object","$id":"io.k8s.api.core.v1.LoadBalancerIngress"};

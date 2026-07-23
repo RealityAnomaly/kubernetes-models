@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodGroupSchedulingConstraints.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"topology":{"$ref":"JZFk6hKPDnl0HQ4SqNAr_VQ_ZmKe2jIEnIKf8YC1qks"}},"type":"object","$id":"io.k8s.api.scheduling.v1alpha2.PodGroupSchedulingConstraints"};

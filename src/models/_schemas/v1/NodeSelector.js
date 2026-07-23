@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeSelector.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"nodeSelectorTerms":{"$ref":"ekg88GDEIohWVWpcLkS0i-9HVv8Pr6PNKoJIAQZcSmo"}},"required":["nodeSelectorTerms"],"type":"object","$id":"io.k8s.api.core.v1.NodeSelector"};

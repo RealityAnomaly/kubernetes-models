@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./NodeFeatures.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"supplementalGroupsPolicy":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"}},"type":"object","$id":"io.k8s.api.core.v1.NodeFeatures"};

@@ -41,6 +41,7 @@ export class ClusterRoleBinding extends Model<IClusterRoleBinding> implements IC
 static apiVersion: IClusterRoleBinding["apiVersion"] = "rbac.authorization.k8s.io/v1beta1";
 static kind: IClusterRoleBinding["kind"] = "ClusterRoleBinding";
 static is: TypeMetaGuard<IClusterRoleBinding> = createTypeMetaGuard<IClusterRoleBinding>(ClusterRoleBinding);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IClusterRoleBinding>) {
   super();

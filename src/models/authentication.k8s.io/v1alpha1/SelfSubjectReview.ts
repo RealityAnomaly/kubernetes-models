@@ -33,6 +33,7 @@ export class SelfSubjectReview extends Model<ISelfSubjectReview> implements ISel
 static apiVersion: ISelfSubjectReview["apiVersion"] = "authentication.k8s.io/v1alpha1";
 static kind: ISelfSubjectReview["kind"] = "SelfSubjectReview";
 static is: TypeMetaGuard<ISelfSubjectReview> = createTypeMetaGuard<ISelfSubjectReview>(SelfSubjectReview);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ISelfSubjectReview>) {
   super();

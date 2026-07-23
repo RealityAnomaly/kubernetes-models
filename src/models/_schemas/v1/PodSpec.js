@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./PodSpec.d.ts" */
 import { formats } from "@glassway/kubernetes-types/validate";
 export const validate = validate6;

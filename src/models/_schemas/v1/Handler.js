@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Handler.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"exec":{"$ref":"hJotIeDhvXV7VSz7omyh89KUC9oqHzVebnUkXVEHC3o"},"httpGet":{"$ref":"HlUNkly6Uznho8cIjvvt6NTv6KsWI7VG1FQxJrCkMG4"},"tcpSocket":{"$ref":"LEZyUF8K1uFnP8xWMGULYYLdoLDXGbIvN5xdYRR8EZU"}},"type":"object","$id":"io.k8s.api.core.v1.Handler"};

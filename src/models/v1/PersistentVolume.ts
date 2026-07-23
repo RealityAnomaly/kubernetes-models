@@ -39,6 +39,7 @@ export class PersistentVolume extends Model<IPersistentVolume> implements IPersi
 static apiVersion: IPersistentVolume["apiVersion"] = "v1";
 static kind: IPersistentVolume["kind"] = "PersistentVolume";
 static is: TypeMetaGuard<IPersistentVolume> = createTypeMetaGuard<IPersistentVolume>(PersistentVolume);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPersistentVolume>) {
   super();

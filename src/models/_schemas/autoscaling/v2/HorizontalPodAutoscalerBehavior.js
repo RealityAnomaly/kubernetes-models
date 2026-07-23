@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./HorizontalPodAutoscalerBehavior.d.ts" */
 export const validate = validate3;
 const schema2 = {"properties":{"scaleDown":{"$ref":"gbViKVpm3Ts9A76XhLEZNt2ZOkl4MwI4mcWkpFjn1e4"},"scaleUp":{"$ref":"gbViKVpm3Ts9A76XhLEZNt2ZOkl4MwI4mcWkpFjn1e4"}},"type":"object","$id":"io.k8s.api.autoscaling.v2.HorizontalPodAutoscalerBehavior"};

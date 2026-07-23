@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./IPAddress.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"NbOU3CLJOC5Y8-4b4BzjKPMTo0cEHwubLgw1tvnm2mw"},"kind":{"$ref":"GdvL_RjzfZIgwunyGG8hrtx6kAr-_jvvkW9QjVY19wA"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"WtcvxNX0drIj07wS_cJsVjFteIGxF878W1gAR_o5Tbg"}},"required":["spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.networking.v1beta1.IPAddress"};

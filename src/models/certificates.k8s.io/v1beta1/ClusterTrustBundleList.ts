@@ -33,6 +33,7 @@ export class ClusterTrustBundleList extends Model<IClusterTrustBundleList> imple
 static apiVersion: IClusterTrustBundleList["apiVersion"] = "certificates.k8s.io/v1beta1";
 static kind: IClusterTrustBundleList["kind"] = "ClusterTrustBundleList";
 static is: TypeMetaGuard<IClusterTrustBundleList> = createTypeMetaGuard<IClusterTrustBundleList>(ClusterTrustBundleList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IClusterTrustBundleList>) {
   super();

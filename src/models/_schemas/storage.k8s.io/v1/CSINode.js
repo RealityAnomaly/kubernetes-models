@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CSINode.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"3Lnz3hDGoV6LS117nicS3YoTy1WU2EUGx89iY2NJZb4"},"kind":{"$ref":"7qWiLeXRcNAlvYNv3XcEdljj_PvNREJZKu132j6kwP0"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"spec":{"$ref":"JG7DD52_9cfhmQD5DJClATH9QCJ5_u4YSPrONeLTTNg"}},"required":["spec","apiVersion","kind"],"type":"object","$id":"io.k8s.api.storage.v1.CSINode"};

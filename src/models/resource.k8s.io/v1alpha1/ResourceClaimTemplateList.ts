@@ -33,6 +33,7 @@ export class ResourceClaimTemplateList extends Model<IResourceClaimTemplateList>
 static apiVersion: IResourceClaimTemplateList["apiVersion"] = "resource.k8s.io/v1alpha1";
 static kind: IResourceClaimTemplateList["kind"] = "ResourceClaimTemplateList";
 static is: TypeMetaGuard<IResourceClaimTemplateList> = createTypeMetaGuard<IResourceClaimTemplateList>(ResourceClaimTemplateList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IResourceClaimTemplateList>) {
   super();

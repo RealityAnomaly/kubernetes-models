@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./OpaqueDeviceConfiguration.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"driver":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"parameters":{"$ref":"iqsaYtRYnjKnPQivTbpYZthqN78wC5VBsG5WXKWxuB4"}},"required":["driver","parameters"],"type":"object","$id":"io.k8s.api.resource.v1.OpaqueDeviceConfiguration"};

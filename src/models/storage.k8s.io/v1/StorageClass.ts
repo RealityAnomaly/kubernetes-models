@@ -71,6 +71,7 @@ export class StorageClass extends Model<IStorageClass> implements IStorageClass 
 static apiVersion: IStorageClass["apiVersion"] = "storage.k8s.io/v1";
 static kind: IStorageClass["kind"] = "StorageClass";
 static is: TypeMetaGuard<IStorageClass> = createTypeMetaGuard<IStorageClass>(StorageClass);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IStorageClass>) {
   super();

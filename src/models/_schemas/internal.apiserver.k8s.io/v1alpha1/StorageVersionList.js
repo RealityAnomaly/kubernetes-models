@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./StorageVersionList.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"Jl-b9UIxwXUZrjivF2sNIpAUsS1qoieOuEi75aNTTlA"},"items":{"$ref":"2LFnRc8C6l1wii97DzbQPgIv7nypHxHDwWmLUs_syK4"},"kind":{"$ref":"Qnl-pL-LrrDX8uVgDiM8HbGkYxGa2X2C4tzBCIEKIHc"},"metadata":{"$ref":"ltKCbb6Afl8nUl7eHOXxCc7fTyKPDEePIkmfx-Al-5U"}},"required":["items","apiVersion","kind"],"type":"object","$id":"io.k8s.api.apiserverinternal.v1alpha1.StorageVersionList"};

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./TokenRequest.d.ts" */
 import { formats } from "@glassway/kubernetes-types/validate";
 export const validate = validate0;

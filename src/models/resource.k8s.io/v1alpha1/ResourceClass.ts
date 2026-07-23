@@ -52,6 +52,7 @@ export class ResourceClass extends Model<IResourceClass> implements IResourceCla
 static apiVersion: IResourceClass["apiVersion"] = "resource.k8s.io/v1alpha1";
 static kind: IResourceClass["kind"] = "ResourceClass";
 static is: TypeMetaGuard<IResourceClass> = createTypeMetaGuard<IResourceClass>(ResourceClass);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IResourceClass>) {
   super();

@@ -33,6 +33,7 @@ export class CustomResourceDefinitionList extends Model<ICustomResourceDefinitio
 static apiVersion: ICustomResourceDefinitionList["apiVersion"] = "apiextensions.k8s.io/v1";
 static kind: ICustomResourceDefinitionList["kind"] = "CustomResourceDefinitionList";
 static is: TypeMetaGuard<ICustomResourceDefinitionList> = createTypeMetaGuard<ICustomResourceDefinitionList>(CustomResourceDefinitionList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<ICustomResourceDefinitionList>) {
   super();

@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ObjectMetricSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"describedObject":{"$ref":"E2l06yuqoLv6uh8rsLN_0_gEKLk6SfvWTk4e_GHebmw"},"metric":{"$ref":"HhIW3eWSXOltn7SemUIsPuCS7UE0PSh1IWsMg8ta2ZE"},"target":{"$ref":"xjHD2zXMIlooXvmTxXzwc4ktFagRb6fAYasSY0Yuq7k"}},"required":["describedObject","target","metric"],"type":"object","$id":"io.k8s.api.autoscaling.v2.ObjectMetricSource"};

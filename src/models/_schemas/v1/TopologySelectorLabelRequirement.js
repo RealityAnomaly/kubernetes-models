@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./TopologySelectorLabelRequirement.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"key":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"values":{"$ref":"uqUtVyG9D2UAWDvqosEgVMtwK5kI3TMy2eLbDZB452I"}},"required":["key","values"],"type":"object","$id":"io.k8s.api.core.v1.TopologySelectorLabelRequirement"};

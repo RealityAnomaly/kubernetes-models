@@ -33,6 +33,7 @@ export class PodDisruptionBudgetList extends Model<IPodDisruptionBudgetList> imp
 static apiVersion: IPodDisruptionBudgetList["apiVersion"] = "policy/v1beta1";
 static kind: IPodDisruptionBudgetList["kind"] = "PodDisruptionBudgetList";
 static is: TypeMetaGuard<IPodDisruptionBudgetList> = createTypeMetaGuard<IPodDisruptionBudgetList>(PodDisruptionBudgetList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IPodDisruptionBudgetList>) {
   super();

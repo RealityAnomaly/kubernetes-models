@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./EphemeralVolumeSource.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"volumeClaimTemplate":{"$ref":"IbfimEz0lMtE_bOfqRcMOcuxYsAWs8sal_q9lz2wXss"}},"type":"object","$id":"io.k8s.api.core.v1.EphemeralVolumeSource"};

@@ -33,6 +33,7 @@ export class JobList extends Model<IJobList> implements IJobList {
 static apiVersion: IJobList["apiVersion"] = "batch/v1";
 static kind: IJobList["kind"] = "JobList";
 static is: TypeMetaGuard<IJobList> = createTypeMetaGuard<IJobList>(JobList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IJobList>) {
   super();

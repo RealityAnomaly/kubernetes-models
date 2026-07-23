@@ -35,6 +35,7 @@ export class ClusterRoleBindingList extends Model<IClusterRoleBindingList> imple
 static apiVersion: IClusterRoleBindingList["apiVersion"] = "rbac.authorization.k8s.io/v1beta1";
 static kind: IClusterRoleBindingList["kind"] = "ClusterRoleBindingList";
 static is: TypeMetaGuard<IClusterRoleBindingList> = createTypeMetaGuard<IClusterRoleBindingList>(ClusterRoleBindingList);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IClusterRoleBindingList>) {
   super();

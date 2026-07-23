@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./Endpoints.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"apiVersion":{"$ref":"_-ZvS-rLxHiNEArQOhevVo83klxV-qnul8X_v4BZ4M4"},"kind":{"$ref":"-ABJznQo-nJFT5iEGqfc_f1lU5Ha_vMvJWyPfWrA2G4"},"metadata":{"$ref":"P3srTZpWadQH4s4N9KfJR0iCqydQo9YAz7xMB2qf0GQ"},"subsets":{"$ref":"u-cAZ1k3yEDrZPWFrWOimfym-mrHwt2EiCiz_VFHo44"}},"type":"object","required":["apiVersion","kind"],"$id":"io.k8s.api.core.v1.Endpoints"};

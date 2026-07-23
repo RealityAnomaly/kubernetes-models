@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./TopologyConstraint.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"key":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["key"],"type":"object","$id":"io.k8s.api.scheduling.v1alpha2.TopologyConstraint"};

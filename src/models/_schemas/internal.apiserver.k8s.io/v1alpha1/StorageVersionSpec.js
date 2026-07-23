@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./StorageVersionSpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"type":"object","$id":"io.k8s.api.apiserverinternal.v1alpha1.StorageVersionSpec"};

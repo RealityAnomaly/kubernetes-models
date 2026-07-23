@@ -33,6 +33,7 @@ export class RuntimeClass extends Model<IRuntimeClass> implements IRuntimeClass 
 static apiVersion: IRuntimeClass["apiVersion"] = "node.k8s.io/v1alpha1";
 static kind: IRuntimeClass["kind"] = "RuntimeClass";
 static is: TypeMetaGuard<IRuntimeClass> = createTypeMetaGuard<IRuntimeClass>(RuntimeClass);
+static scope: string = "\\*";
 
 constructor(data?: ModelData<IRuntimeClass>) {
   super();

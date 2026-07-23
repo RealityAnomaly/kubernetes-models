@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./HostIP.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"ip":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"}},"required":["ip"],"type":"object","$id":"io.k8s.api.core.v1.HostIP"};

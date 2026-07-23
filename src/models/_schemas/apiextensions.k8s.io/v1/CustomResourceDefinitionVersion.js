@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./CustomResourceDefinitionVersion.d.ts" */
 export const validate = validate1;
 const schema1 = {"properties":{"additionalPrinterColumns":{"$ref":"-52KUyRq-J-rpm-JR8Z3hkXbyUMdgnl6QOU6ut6Afw4"},"deprecated":{"$ref":"CTX4WtafS9K1Gv7k2X1H0J3M9LziUVVRBMOR0rDDzTk"},"deprecationWarning":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"name":{"$ref":"sLlNkWhANXZ15lvmcujppy1mXxqn6f-GaeQpWRYm_dw"},"schema":{"$ref":"J3IK-aS3ZtrNgU48K6v67jWrhmpdgrFTd_d-lz-ddYM"},"selectableFields":{"$ref":"GwLCmOD5W2OL38mMBpxgeojC5TmjZtc_i1IfkLzey8I"},"served":{"$ref":"C6hei-tisjs1kz7xDhDJSDhsoUlCo3cumzNSDD7Je7A"},"storage":{"$ref":"C6hei-tisjs1kz7xDhDJSDhsoUlCo3cumzNSDD7Je7A"},"subresources":{"$ref":"CeRkYB5XUzBvrn8QSKn-hFwGCton34Nd7xplSLjYKsw"}},"required":["name","served","storage"],"type":"object","$id":"io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.CustomResourceDefinitionVersion"};

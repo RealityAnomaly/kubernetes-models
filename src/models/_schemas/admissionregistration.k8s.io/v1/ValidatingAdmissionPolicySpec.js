@@ -1,3 +1,4 @@
+// deno-coverage-ignore-file
 /* @ts-self-types="./ValidatingAdmissionPolicySpec.d.ts" */
 export const validate = validate0;
 const schema0 = {"properties":{"auditAnnotations":{"$ref":"ptonzgoU_lHboU0Tsd3J8M_Jutme8sG40pIeaYvR1GI"},"failurePolicy":{"$ref":"ldoCEsh0ARg8F2aeji6S38NFl7aLPSuz1hGlgX2tjuQ"},"matchConditions":{"$ref":"O75pOHlRNVvuYKje6cXJ0CnsLAadOqtU8sbhm5NoavE"},"matchConstraints":{"$ref":"73ALkj3Px5oyNUnchRkDz-wTuW7-nl6Zflwnowe4c3c"},"paramKind":{"$ref":"wnpy33SNdMuWIIBlxNFQrLHtG_qcaN2vX5dzntxV_mk"},"validations":{"$ref":"5oGwi0vD0tn3yZnKY8VBBwdoCNldH05yzvJy4NRbIGw"},"variables":{"$ref":"0p5nzESQUGHrn7qBUGmAMi9Eaz_73G5LzB5vxPc3Upc"}},"type":"object","$id":"io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicySpec"};
