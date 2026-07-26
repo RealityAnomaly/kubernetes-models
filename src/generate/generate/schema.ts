@@ -522,7 +522,11 @@ function compileSchemaInWorker(
 function spawnWorkers(count: number): Worker[] {
   return Array.from(
     { length: count },
-    () => new Worker(new URL("./schema-worker.ts", import.meta.url)),
+    () => new Worker(
+      new URL("./schema-worker.ts", import.meta.url),
+      // @ts-ignore: as per docs
+      { type: "module" }
+    ),
   );
 }
 
@@ -560,7 +564,9 @@ async function compileSchemasInParallel(
 export async function compileSchemas(
   tasks: readonly CompileSchemaTask[],
 ): Promise<string[]> {
-  return tasks.length < PARALLEL_SCHEMA_THRESHOLD
-    ? compileSchemasSequentially(tasks)
-    : compileSchemasInParallel(tasks);
+  return compileSchemasSequentially(tasks);
+  // Vertex: Disabled because this doesn't work with Deno
+  // return tasks.length < PARALLEL_SCHEMA_THRESHOLD
+  //   ? compileSchemasSequentially(tasks)
+  //   : compileSchemasInParallel(tasks);
 }
